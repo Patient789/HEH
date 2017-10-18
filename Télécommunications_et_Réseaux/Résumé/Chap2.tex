@@ -1,0 +1,234 @@
+ \part{Chapitre 2: Communication et protocoles réseaux}
+ \section{Généralités sur les réseaux}
+ \subsection{Règles de communication}
+ Pour que plusierus périphériques soient en réseau il faut les connecter physiquement, mais cette connection physique n'est pas suffisante pour qu'ils puissent communiquer, il leur faut une convention de langage. Peut importe le mode de communication, ils ont en commmun trois élements:
+ \begin{itemize}
+	 \item L'\textbf{émetteur} qui envoie un message à un autre pérphérique.
+	 \item Le \textbf{récepteur} qui reçoit le message de l'émetteur.
+	 \item Le \textbf{support de transmission} qui est le chemin que le massage utilise pour aller de lémetteur au récepteur.
+ \end{itemize}
+ Les protocoles doivent être respecté pour que l'échange d'information puisse se produire. Un protocole doit respecter certaines conditions:
+ \subsubsection{Le codage du message}
+ Le \textbf{codage} consite à transformer des information en un format convenable pour la transmission et adapté au support.
+ \indent
+ Le \textbf{décodage} consiste est le processus inverse, il permet d'interpreter les information reçue.
+
+ \subsubsection{Le formatage et l'encapsulation des messages}
+ Les messages envoyées doivent correspondre à un certain \textbf{format} selon leur type. L'\textbf{encapsulation} consiste à placer le format du message dans une trame avant de transmettre le message et la \textbf{décapsulation} est le processus inverse à la réception de celui-ci. Un message mal formaté ne sera pas livré ni traité par le destinataire.
+
+ \subsubsection{La taille des messages}
+ La \textbf{taille des messages} est limitée par ce que le destinataire peux traiter et comprendre en une seule fois, il faut donc décomposer un grand message en plusieurs trames qui doivent respecter des impératifs strictes sous peine de ne pas être livrées. L'hôte recompose le message après avoir désencapsulé les trames.
+
+ \subsubsection{La synchronisation des messages}
+ La \textbf{méthode d'accès} détermine le moment ou le périphérique peut communiquer sur le réseau pour éviter que deux communications se collisionnent et que les communications doivent recommencer.
+
+ \subsubsection{Le contrôle de flux}
+ Le \textbf{contrôle du flux} permet aux périphériques de se mettre d'accord sur la synchronistation du flux pour parvenir à communiquer.
+
+ \subsubsection{Le délai d'attente de la réponse}
+ Les périphériques sont prévu pour agir d'une certaine façon si après un \textbf{délai d'attente} trop important ils n'ont pas reçu de réponse.
+
+ \subsubsection{Les options de remise de messages}
+ Les \textbf{options de remsie de messages} servent à indiquer si le message à un seul, un groupe ou tout les hôtes comme destinataire ou à préciser qu'un message ne recquiere pas d'accusé de réception.
+
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=5cm]{casts}
+	 \caption{Les différents types de casts}
+ \end{figure}
+
+ \section{Les protocoles de communications}
+ Pour pouvoir communiquer il faut une suite de protocole qui est mise en place par les périphériques dans le logiciel et/ou dans le matériel. On représente cette suite par une pile dont les couches supérieures dépendent des couches inférieures.\\
+
+ Comme on peut le voire dans la figure~\ref{fig:exemplesPileProtocoles} on a le protocole \textbf{HTTP} (\textit{Hypertext Transfer Protocol}) qui décrit les requètes et les réponses entre le client et le serveur.\\
+
+ \indent
+ Il dépend donc du protocole \textbf{TCP} (\textit{Transmission Control Protocol}) qui vas diviser les transmissions HTTP en petit paquets et contrôle la taille et le débit des échanges.\\
+
+ \indent
+ Le protocole TCP dépend du protocole \textbf{IP} (\textit{Internet Protocol}) qui encapsule les paquet produit par le TCP et qui les adresse au bon destinataire en utilisant le meilleur chemin.\\
+
+ \indent
+ Enfin il faut bien un support physique et c'est là qu'intervient la couche \textbf{Ethernet} qui se charge aussi de la communication sur une liaison de donnée.
+
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=5cm]{modelExemples}
+	 \caption{Exmemples de pile de protocoles}
+\label{fig:exemplesPileProtocoles}
+ \end{figure}
+
+ Les suite de protocoles peuvent être une norme ouverte et autorisé par un organisme ou propriétaire comme l'AppleTalk
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=5cm]{modelProp}
+	 \caption{Comparaison des suite de protocoles norme ouverte et propriétaire}
+ \end{figure}
+
+ \subsection{La suite de protocoles TCP/IP}
+ Dans le \textbf{modèle TCP/IP} les \textbf{protocoles TCP/IP} se trouvent de la couche Internet à la couche application. Les couches inférieures sont chargées de transmettre les paquests sur le réseau physique.
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=7cm]{TCP}
+	 \caption{Les différents protocoles du modèle TCP/IP}
+ \end{figure}
+
+ \subsubsection{Couche application}
+ \begin{itemize}
+	 \item \textbf{DNS} (\textit{Domain Name System/Service}): Traduit les noms de domaines en adresse IP\@.
+	 \item \textbf{DHCP} (\textit{Dynamic Host Configuration Protocol}): Attribue dynamiquement les adresse IP à la connexion.
+	 \item \textbf{SMTP} (\textit{Simple Mail Transfer Protocol}): Permet le transfer d'e-mail à un serveur de messagerie.
+	 \item \textbf{POP} (\textit{Post Office Protocol}): Permet de récupérer des e-mails depuis un serveur de messagerie.
+	 \item \textbf{IMAP} (\textit{Internet Message Access Protocol}): Permet d'accéder à des e-mails sur un serveur de messagerie.
+	 \item \textbf{FTP} (\textit{File Transfer Protocol}): Permet d'accéder aux fichier sur un autre hôte et de transférer des fichiers.
+	 \item \textbf{TFTP} (\textit{Trivial File Tranfer Protocol}): Un version simplifiée de FTP qui ne recquiert pas d'identifiants de connexion.
+	 \item \textbf{HTTP} (\textit{HyperText Tranfert Protocol}): Permet d'échanger du text et des multimédias.
+ \end{itemize}
+
+ \subsubsection{Couche transport}
+ \begin{itemize}
+	 \item \textbf{UDP} (\textit{User Datagram Protocol}): Permet d'envoyer des paquets sansconnexion et sans confirmation entre les processus.
+	 \item \textbf{TCP} (\textit{Transmission Control Protocol}): Permet un connection fiable entre les processus.
+ \end{itemize}
+
+ \subsubsection{Couche Internet}
+ \begin{itemize}
+	 \item \textbf{IP} (\textit{Internet Protocol}): Transforme les segment de messages en paquets et indique l'adresse du destinataire.
+	 \item \textbf{NAT} (\textit{Network Address Translation}): Convertit les adresse OP privées en adresses IP publiques.
+	 \item \textbf{ICMP} (\textit{Internet Control Message Protocol}): Permet au destinataire de signaler une erreur dans le paquet à la source.
+	 \item \textbf{OSPF} (\textit{Open Shortest Path First}): Permet de faire du routage dynamique.
+	 \item \textbf{EIGRP} (\textit{Enhanced Interior Gatway Routing Protocol}): Permet aussi de faire du routage dynamique mais par Cisco
+ \end{itemize}
+
+ \subsubsection{Couche d'accès au réseau}
+ \begin{itemize}
+	 \item \textbf{ARP} (\textit{Address Resolution Protocol}): Fournit un mappage dynamique entre un adresse IP et une adresse MAC\@.
+	 \item \textbf{PPP} (\textit{Point to Point Protocol}): Encapsule les paquets pour les transmettre en série
+	 \item \textbf{Ethernet}: Définit les règles de cablage et de signalisation de cette couche.
+	 \item \textbf{Pilotes d'interface}: Permet à un ordinateur de controler un interface sur un périphérique réseau.
+ \end{itemize}
+
+ \subsection{Les organismes de normalisations}
+
+ Les \textbf{organismes de normalisations} sont des associations à but non lucratif qui développent de nouvelles normes. Voici les plus connues:
+ \begin{itemize}
+	 \item L'\textit{Internet Society} (\textbf{ISOC}) qui promeut l'évolution et l'utilisation d'internet ouvert dans le monde.
+	 \item L'\textit{Internet Architecture Board} (\textbf{IAB}) s'occupe de la gestion du développement et de la surveillances des normes Internet.
+	 \item L'\textit{Internet Engineering Task Force} (\textbf{IETF}) développe et s'assure de la maintenance de TCP/IP et produisent des Request for Comments (\textbf{RFC}) pour décrire les processus et technologies d'Internet. Il est constitué de groupe de travail missionés qui se dissolvent une fois leur missons réussite.
+	 \item L'\textit{Internet Research Task Force} (\textbf{IRTF}) développe Internet et TCP/IP mais sur le long terme.
+ \end{itemize}
+
+ Il existe aussi l'Institute of Electronical and Electronic Engineers (\textbf{IEEE}) constitué de 400 000 spécialiste de l'électronique. Il gère des normes affectant de nombreux secteurs comme leurs normes 802 qui traitent des LAN et MAN filaire et sans fil. En voici quelques exemples:
+ \begin{itemize}
+	 \item \textbf{802.1}: Un groupe de travail sur les protocoles LAN de couches supérieures
+	 \item \textbf{802.3}: Un groupe de travail sur Ethernet et définit le MAC\@.
+	 \item \textbf{802.11}: Un groupe de travail sur les WLAN et définit les couches physiques et de liaison de données MAC su modèle OSI\@.
+	 \item \textbf{802.15}: Un groupe de travail sur WPAN
+ \end{itemize}
+
+ Enfin il y a l'organisation internationale de normalisation (\textbf{ISO}) surtout célèbre pour le modèle \textbf{OSI} (\textit{Open Systems Interconnection}), même si on lui a finalement préféré le modèle \textbf{TCP/IP}.\\
+
+ \indent
+ Il existe aussi des organisme de normalisation commerciaux. Les principaux sont:
+
+ \begin{itemize}
+	 \item L'\textit{Electronic Industries Alliance} (\textbf{EIA}) concerne les entreprise électronique et est connue pour ses normes de cables, de connecteur et les racks 19 pouces.
+	 \item Le \textit{Telecommuications Industry Association} (\textbf{TIA}) s'occupe de nombreuses normes de communications.
+	 \item Le \textit{secteur de la normalisation des télécommunications de l'Union Internationale des Télécommunications} (\textbf{ITU-T}) définit des normes de compression vidéo, de TV sur IP, de DSL et les indicatifs téléphoniques internationnaux.
+	 \item L'\textit{Internet Corporation fo Assigned Names and Numbers} (\textbf{ICANN}) gère le protocole DNS, l'attribution d'adresses IP et les identificateurs de protocole TCP et UDP\@.
+	 \item L'\textit{Internet Assigned Numbers Authority} (\textbf{IANA}) est une composante de l'ICANN qui gère les noms de domaines, les IP et les identificateurs de protocole.
+ \end{itemize}
+
+ \subsection{Les modèles de référence et de protocoles}
+ Un \textbf{modèle} comme TCP/IP ou OSI permet de visualiser les interaction des protocoles et leurs fonctionnement. Il permet de foncevoir un protocole plus facilement grâces aux interactions entre les couches et évite qu'un changement dans une couche ne se répercute dans les autres. Il encourage la concurrence car les produit concurent peuvent fonctionner ensembles car il fournit un langage commun pour décrire les fonction et les fonctionnalités réseaux.\\
+
+ \indent
+ Un \textbf{modèle de protocole} suit la structure d'une suite de protocole donnée. La suite de protocole hierarchisée comporte normalement toutes les fonctions recquises pour un interface entre un humaine et le réseau. Le \textbf{modèle TCP/IP} décrit les fonctions qui interviènnent à chaques couches de la suite TCP/IP\@.
+ \indent
+ Un \textbf{modèle de référence} décrit les opérations à effectuer à chaque couches mais pas leur mise en oeuvre. Il permet de mieux comprendre les fonctions et les processus impliqués. Le modèle \textbf{OSI} ne spécifie pas l'implémentation et ne possède pas suffisement de détails pour définir précisement less services de l'architecture réseau.
+
+ \subsection{Le modèle OSI}
+
+ \begin{enumerate}
+ \item La \textbf{couche application} relie les réseaux humains.
+ \item La \textbf{couche présentation} permet de représenter les données de façon commune entre les services de la couche application.
+ \item La \textbf{couche session} permet à la couche présentation d'échanger des données.
+ \item La \textbf{couche transport} segemente, transfer et réassemble les donnée.
+ \item La \textbf{couche réseau} permet d'échanger des paquet entre périphériques finaux.
+ \item La \textbf{couche liaison de données} permet d'échanger des trames entre périphériques sur un support commun.
+ \item La \textbf{couche physique} permet de gerer des connections physiques pour le transfère de bits.
+ \end{enumerate}
+
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=7cm]{OSI}
+	 \caption{Modèle OSI}
+ \end{figure}
+
+ Le \textbf{PDU} (\textit{Protocol Data Unit}) est l'unité de données de protocole.
+
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=5cm]{pduOSI}
+	 \caption{PDU du modèle OSI}
+ \end{figure}
+
+ \subsection{Le modèle TCP/IP}
+
+ Le modèle TCP/IP est une norme ouvert, elle est don décrite dans un RFC disponible au public.
+
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=4cm]{pduTCP}
+	 \caption{PDU du modèle TCP/IP}
+ \end{figure}
+
+ Les différences notables sont:
+ \begin{itemize}
+	 \item Au niveau de la \textbf{couche d'acces réseau} la suite TCP/IP ne spécifie pas de protocol pour la transmission physique des données.
+	 \item Au niveau de la \textbf{couche d'application} TCP/IP proposes plusieurs protocols qui ont été basé sur les couches 5,6 et 7 du modèle ISO\@.
+ \end{itemize}
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=5cm]{TCPOSI}
+	 \caption{Comparaison des modèles OSI et TCP/IP}
+ \end{figure}
+
+ \subsection{Adresses réseau et adresses de liaison de données}
+ Les protocoles possèdent des adresses sources et de destinations mais ne les utilisent pas de la même façon.\\
+
+ \indent
+ Sur la couche réseau on trouve dans un paquet IP\@:
+
+ \indent
+ L'\textbf{adresse IP source} est l'adresse IP du périphérique expéditeur.
+ \indent
+ L'\textbf{adresse IP de destination} est l'adresse du récepteur, elle est utilisée par les routeurs pour tranférer le paquet IP vers sa destination.\\
+
+ \indent
+ Sur la couche liaison de données on retrouve:
+
+ \indent
+ L'\textbf{adresse de liaison de données source} est l'adresse physique de la carte réseau de l'expéditeur
+
+ \indent
+ L'\textbf{adresse de liaison de données de destination} est l'adresse physique du routeur du tronçon suivant ou du destinataire.\\
+
+ \indent
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=4cm]{packet}
+	 \caption{Composition d'un paquet}
+ \end{figure}
+ Pour obtenir l'adresse MAC Ethernet d'un autre périphérique, l'hôte utilise le protocole ARP\@. Dans la RAM se trouve une table ARP qui contient le mappage des adresses MAC et des adresses IP corespondantes. Il est soit créé de facon dynamique soit à chaque échange avec un nouvel hôte. La demande de ligne ARP se fait par multidifusion et elles ont biensur une date limite.
+
+ \indent
+ Il est possible de devoir configurer les tables ARP manuellement avec des entrées statiques pour éviter les empoisonnement ARP\@.\\
+
+ \indent
+ Pour accéder aux resources distantes, l'hôte dois passer par le routeur ou passerelle par défaut. L'adresse IP est donc celle de l'hote distant mais l'adresse mac est d'abord celle du routeur puis de chaque périphérique intermédiaire avant d'arriver au destinataire.
+
+
+
+
+

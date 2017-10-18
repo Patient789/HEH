@@ -1,0 +1,763 @@
+ \part{Chapitre 1: Introduction et généralités}
+ \section{Généralités fondamentales}
+
+ \subsection{Information}
+ L'unité de base de l'information en informatique est le \textbf{bit} (\textit{b}) qui peut prendre les valeurs 1 ou 0. Un groupe de 8 bits forme un octet (\textit{o}) ou byte (\textit{B}). Un octet peut prendre 256 valeurs différentes.
+ \begin{itemize}
+ 	\item 1 Ko = 1000 octets
+ 	\item 1 Mo = 1000 Ko
+ 	\item 1 Go = 1000 Mo
+	\item 1 To = 1000 Go
+ \end{itemize}
+
+ \subsection{Image et vidéo}
+ Un \textbf{pixel} (\textit{px}) est l'unité minimale adressable par le controleur vidéo.\\
+ \indent
+ La \textbf{définition} d'un écran est le nombre de pixels que peut afficher une carte graphique sur un écran. Définition = nombre de pixels verticaux * nombre de pixels horizontaux.\\
+ \indent
+ Les \textbf{frames per second} (\textit{fps}) sont le nombre d'images affichées par le moniteur chaque secondes.
+
+ \subsection{Débits}
+ L'unité du débit est le \textbf{bits par seconde} (\textit{bit/s} ou \textit{bps}).
+
+
+ \section{Rôles de l'administrateur}
+ \begin{itemize}
+	 \item La gestion des besoins, du budget et des priorités.
+	 \item La gestion des ordinateurs et des périphériques.
+	 \item La gestion des performances des systèmes.
+	 \item La gestion des utilisateurs.
+	 \item La gestion des fichiers et des disques.
+	 \item La gestion des services.
+	 \item La gestion des problèmes.
+	 \item La gestion des sauvegardes et du stockage des données.
+	 \item La gestion du réseau.
+	 \item La gestion de la sécurité.
+ \end{itemize}
+
+ \subsection{La gestion des besoins, du budget et des priorités}
+ L'administrateur réseau doit s'adapter aux besoins de l'entreprise et fournir une infrastucture correspondant aux besoins du client mais qui soit aussi évolutif.\\
+ L'administrateur réseau doit établir un cahier des charges reprennant les besoins matériels et logiciels de l'entreprise tout en établissant un ordre de priorités.\\
+ L'administrateur réseau doit ensuite comparer les ordres et choisir la solution la plus sécurisée, évolutive, tolérante aux pannes et dans le budget de l'entreprise.
+
+ \subsection{La gestion des ordinateurs et des périphériques}
+ L'administrateur réseau doit pouvoir gérer le matériel (Machines, composants, périphériques):
+ \begin{itemize}
+	 \item Installer les OS, paramétrer le démarrage et l'arret.
+	 \item Gérer les disques (initialisation, partitionnement, remplacement\ldots).
+	 \item Ajouter ou enlever un périphérique.
+	 \item Planifier le vieillissement de matériel et prévoir son remplacement.
+	 \item Ajouter (ou supprimer) un pilote de périphérique.
+ \end{itemize}
+
+ \subsection{La gestion des performances des systèmes}
+ L'administrateur réseau doit savoir:
+ \begin{itemize}
+	 \item Paramétrer et répatir les ressources pour obtenir un système parfaitement fonctionnel.
+	 \item Surveiller les ressources afin de régir avant un éventuel manque de ressources.
+ \end{itemize}
+
+ \subsection{La gestion des utilisateurs}
+ L'administrateur réseau doit savoir:
+ \begin{itemize}
+	 \item Créer, modifier et supprimer les comptes utilisateurs sur les sytèmes dont il est en charge.
+	 \item Modifier l'environnement de travail des utilisateurs, changer leur mot de passe, gérer les droits d'accès\ldots
+	 \item Eduquer les utilisateurs pour qu'ils utilisent correctement les outils informatiques mis à leur disposition.
+ \end{itemize}
+
+ \subsection{La gestion des fichiers et des disques}
+ L'administrateur réseau doit savoir gérer les fichiers et les systèmes de fichiers présents sur les disques:
+ \begin{itemize}
+	 \item Mettre en place et gérer les sytèmes de fichiers (création, configuration des permissions, cyptage\ldots)
+	 \item Veiller à l'intégrité des systèmes de fichiers et donc des données.
+	 \item Gérer l'arorescence des fichier (organisation et accès).
+	 \item Surveiller l'espace disque: contrôler le taux d'occupation des disques, mettre en place des quotas\ldots
+ \end{itemize}
+
+ \subsection{La gestion des serices}
+ L'administrateur réseau doit savoir configurer et utiliser les services qui répondent aux besoins du client. Par exemple les services fournis par un systeme Linux (gestion des taches, service d'impression\ldots)
+
+ \subsection{La gestion des problèmes}
+ L'administrateur doit connaitre ses machines et leur configuration ainsi que son réseau pour pouvoir intervenir rapidement et éfficacement en cas de problème.
+ Il doit mettre en place des outils de diagnostiques permettant de l'alerter en cas de panne.
+ Il peut être utile de préparer des fiches permettant aux utilisateur de faire part de leur problème au service informatique.
+
+ \subsection{La gestion des sauvegardes et du stockage des données}
+ La gestion des sauvegardes est un point très important pour un administrateur réseau. Il doit être capable de récupérer rapidement n'importe quelle donnée perdue.
+
+ \subsection{La gestion du réseau}
+ L'administrateur réseau doit mettre en place des outils de surveillance du reseau pour suivre les performances et les mettre en relatio avec un changement.\\
+ L'administrateur réseau doit savoir mettre en place et modifier l'architecture du reseau; il doit donc pouvoir:
+ \begin{itemize}
+	 \item Choisir la topologie du réseau.
+	 \item Choisir les protocoles réseau.
+	 \item Mettre en place de la redondance.
+	 \item Organiser le routage et le filtrage.
+ \end{itemize}
+ L'administrateur réseau doit savoir gérer les différents éléements du reseau:
+ \begin{itemize}
+	 \item Choisir, installer et paramétrer les éléements.
+	 \item Paramétrer le démarrage et l'arrêt de tous les sytèmes
+	 \item Automatiser le processus de démarrage des nouveaux services et produits sur les machines clientes et serveurs.
+ \end{itemize}
+
+ \subsection{La gestion de la sécurité}
+ L'administrateur réseau doit veiller à la sécurité en prenant compte des trois axes:
+ \begin{itemize}
+	 \item \textbf{Assurer la confidentialité}: Limiter l'accès aux destinataires autorisés
+	 \item \textbf{Garentir l'intégrité des données}: Veiller à ce que les données transmises restes intactes
+	 \item \textbf{Assurer la disponibilité}:Faire en sorte que les utilisateurs puissent accéder en temps voulu aux données
+ \end{itemize}
+ \medskip
+ Les menaces de sécurités peuvent être:
+ \begin{itemize}
+	 \item \textbf{Virus, vers et chevaux de Trois}: Logiciels malveillants s'exécutant sur un périphérique utilisateur.
+	 \item \textbf{Logiciels espions et publicitaires}: Logiciels qui collecte secrètement les données sur un périphérique utilisateur.
+	 \item \textbf{Attaques zero-day}: Attaques se produisant peu de temps après qu'une vulnérabilité ait été détectée.
+	 \item \textbf{Attaques de pirates}: Attaques lancées sur un périphérique utilisateur ou une ressource réseau par une personne ayant de solides connaissances en informatique.
+	 \item \textbf{Attaques par dénis de service}: Attaques concuens pour ralentir voir bloquer les applications et processus d'un périphérique réseau.
+	 \item \textbf{Interceptions et vols de données}: Attaques visant à acquérir des informations confidentielle à partir du réseau d'une entreprise.
+	 \item \textbf{Usurpations d'identité}: Attaques visant à recueillir les identifiant de connexion d'un utilisateur affin d'accéder à des données confidentielles.
+ \end{itemize}
+ \medskip
+ Les risques pour un entreprise liés à un manque de sécurités sont:
+ \begin{itemize}
+	 \item Des pannes réseau empêchant les transfers de données, entrainant une perte d'activité et d'argent.
+ 	 \item Le vol de propriété intelectuelle.
+	 \item La divulgation ou la compromission de données privées.
+	 \item La perte de données importantes très difficiles à remplacer.
+ 	 \item Une perte de fonds.
+ \end{itemize}
+ \medskip
+ Pour éviter celà il faut sécuriser l'infrastructure réseau et les données:
+ \begin{itemize}
+	 \item \textbf{Sécuriser l'infrastructure réseau}: Sécuriser matériellement les périphériques et empêcher l'accès non autorisé aux logiciels qu'ils hébergent.
+	 \begin{itemize}
+		 \item Controller l'accès aux salles contenant du matériel informatique.
+		 \item Mettre en place un pare-feu.
+		 \item Fermer à clé toute armoire contenant du matériel informatique.
+		 \item Mettre en place de un système de vidéosurveillance.
+		 \item Mettre en place des bannières et utiliser des VPN pour l'accès à distance.
+		 \item Utiliser des mots de passes cryptés.
+		 \item Mettre en place des logs.
+		 \item Sensibiliser les utilisateur.
+	 \end{itemize}
+	 \item \textbf{Sécuriser les données}: Protéger les informations stockées ainsi que celles qui sont transmisent sur le réseau.
+	 \begin{itemize}
+
+		 \item Mettre en place des backup de manière. Leur régularité et leur automatisation dépend de la sensibilité des données. Ils peuvent être stockés en interne, en interne dans un salle séparré, en externe ou une combinaison de ces méthodes.
+		 \item Mettre en place des logiciel antivirus et anti-espion.
+		 \item Mettre en place de la redondance pour éviter les pertes de données en transit sur le réseau.
+	 \end{itemize}
+ \end{itemize}
+
+ \section{Méthodologie de l'administrateur}
+ \subsection{La documentation}
+ La documentation est très importante pour un administrateur, elle permet de facilement trouver la cause d'un problème et de communiquer avec ses collègues.\\
+ Le journal de bord est un document daté dans lequel sont consignées toutes les informations relatives aux opérations importantes dur le réseau.\\
+ L'administrateur doit veiller à ce qu'une copie de la documentation relative au materiel soit à proximité de ce matériel.\\
+ Il doit effectuer un repérage sur les appareils.\\
+ Il doit bien commenter son code et ses configs.\\
+
+ \subsection{Sauvegarder}
+ L'administrateur doit choisir le bon type, le bon logiciel, la bonne fréquence, le bon support, le bon personnel pour ses sauvgardes. Il met en place un plan de sauvegarde et un plan de recouvrement après sinistre.
+ Une sauvgarde non testée n'a pas de valeur.
+
+ \subsection{automatiser}
+ L'automatisation d'une procédure à utiliser plusieurs fois permet de gagner du temps et réduit le risque d'erreurs.
+
+ \subsection{Agir de manière réversible}
+ Chaque action de l'administrateur réseau peut créer des problèmes, il faut donc que ces actions soient réversible rapidement. D'où l'importance du journal et des sauvegardes.
+
+ \subsection{Etre proactif}
+ L'administrateur réseau doit anticiper tout les problèmes qui peuvent survenir.
+
+ \subsection{Autres qualités requise de l'administrateur}
+ \subsubsection{Savoir communiquer}
+ L'informatitien travail rarement seul.
+ \subsubsection{Avoir une bonne connaissance du marché}
+ Être aux courants des changment sur le marché qui peuvent avoir une influence sur les choix de gestion du parc informatique.
+ \subsubsection{Connaitre ses limites}
+ L'administrateur réseau doit savoir quand il a besoin d'aide pour ne pas se retouver surchargé.
+
+ \section{Les bases}
+ \subsection{Les différentes bases}
+ \begin{itemize}
+	 \item \textbf{La base 2}, ou base binaire peut prendre les valeurs 0 ou 1.
+	 \item \textbf{La base 8}, ou base octale peut prendre les valeurs de 0 à 7.
+	 \item \textbf{La base 10}, ou base décimale peut prendre les valeurs de 0 à 9.
+	 \item \textbf{La base 16}, ou base hexadécimale peut prendre les valeurs de 0 à 9 et de A à F.
+ \end{itemize}
+
+ \subsection{Les conversions de bases}
+ \subsubsection{Conversion base 10 en base 2}
+ \paragraph{Méthode de la soustraction}
+ \begin{enumerate}
+	 \item Trouver la plus grande puissance de 2 plus petite (ou égale) que le chiffre.
+	 \item Le soustraire au chiffre de bases.
+	 \item Noter 1 dans la colone correspondante à l'exposant de 2 utilisé.
+	 \item Recommencer à l'étape 1 jusqu'a avoir 0.
+ \end{enumerate}
+ Exemple: 580\textsubscript{d}
+ \begin{enumerate}
+	 \item $2^9 \leq 512 < 580$
+	 \item $580 - 512 = 68$
+	 \item 0
+	 \item $2^6 = 64 \leq 68$
+	 \item $68 - 64 = 4$
+	 \item 01001
+	 \item $2^2 4 \leq 4$
+	 \item $4 - 4 = 0$
+	 \item 01001000100\textsubscript{b}
+ \end{enumerate}
+ \paragraph{Méthode de la division}
+ \begin{enumerate}
+	 \item Si le nombre est impaire, noter 1 dans la colonne correspondante et soustraire 1.
+	 \item Diviser par 2 et passer à la colonne suivante.
+	 \item recommencer jusqu'à obtenir 0.
+ \end{enumerate}
+ Exemple: 580\textsubscript{d}
+ \begin{enumerate}
+	 \item 580 est pair donc 0\textsubscript{b}
+	 \item $580/2 = 290$
+	 \item 290 est pair donc 00\textsubscript{b}
+	 \item $290/2 = 145$
+	 \item 145 est impair donc 100\textsubscript{b}
+	 \item $145-1 = 144$
+	 \item $144/2 = 72$
+	 \item 72 est pair donc  0100\textsubscript{b}
+	 \item $72/2 = 36$
+	 \item 36 est pair donc 00100\textsubscript{b}
+	 \item $36/2 = 18$
+	 \item 18 est pair donc 000100\textsubscript{b}
+	 \item $18/2 = 9$
+	 \item 9 est impair donc 1000100\textsubscript{b}
+	 \item $9-1 = 8$
+	 \item $8/2 = 4$
+	 \item 4 est pair donc 01000100\textsubscript{b}
+	 \item $4/2 = 2$
+	 \item 2 est pair donc 001000100\textsubscript{b}
+	 \item $2/2 = 1$
+	 \item 1 est impaire donc 1001000100\textsubscript{b}
+	 \item $1-1 = 0$
+	 \item On a fini: 01001000100\textsubscript{b}
+ \end{enumerate}
+
+ \subsubsection{Conversion base 2 en base 10}
+ On additionne chaque multiple de 2 multiplié par le chiffre lui correspondant dans l'écriture binaire
+ Exemple 01001000100\textsubscript{b}:\\
+ $0*2^0 + 0*2^1 + 1*2^2 + 0*2^3 +0*2^4 +0*2^5 + 1*2^6 + 0*2^7 +0*2^8 + 1*2^9 + 0*2^{10} \\= 4 + 64 + 512 = 580$\textsubscript{d}
+
+
+ \subsubsection{Conversion base 2 en base 8}
+ Il suffit de faire des groupe de 3 bits en partant de la gauche et de les transformer un par un en base 8.\\
+ Exemple 001 001 000 100\textsubscript{b}:
+
+ \begin{enumerate}
+	 \item $100\textsubscript{b} = 1*2^2 = 4$
+	 \item $000\textsubscript{b} = 0$
+	 \item $001\textsubscript{b} = 1*2^0 = 1$
+	 \item $001\textsubscript{b} = 1*2^0 = 1$
+	 \item Donc on obtient 1104\textsubscript{o}
+ \end{enumerate}
+
+ \subsection{Conversion base 2 en base 16}
+ On porcède comme pour la conversion de la base 2 en base 8 mais en faisant des groupement de 4 bits.\\
+ Exemple 0010 0100 0100\textsubscript{b}:
+ \begin{enumerate}
+	 \item $0100\textsubscript{b} = 1*2^2 = 4$
+	 \item $0100\textsubscript{b} = 1*2^2 = 4$
+	 \item $0010\textsubscript{b} = 1*2^1 = 2$
+	 \item Donc on obtient 442\textsubscript{h}
+ \end{enumerate}
+
+ \subsubsection{Conversion base 8 en base 2}
+ On transforme chaque chiffre en base 2 suivant une des deux techniques permettant de passer de la base 10 à la base 2 (en l'adaptant si besoin).\\
+ Exemple 1104\textsubscript{o}:
+ \begin{enumerate}
+	 \item $4 = 1*2^2 = 100\textsubscript{b}$
+	 \item $0 = 000\textsubscript{b}$
+	 \item $1 = 1*2^0 = 001\textsubscript{b}$
+	 \item $1 = 1*2^0 = 001\textsubscript{b}$
+	 \item Donc on obtient 001 001 000 100\textsubscript{b}
+ \end{enumerate}
+
+ \subsubsection{Conversion base 16 en base 2}
+ On procède comme pour la conversion de la base 8 en base 2 sauf qu'on obtient des groupement de 4 bits.\\
+ Exemple 442\textsubscript{h}:
+\begin{enumerate}
+	 \item $4 = 1*2^2 = 0100\textsubscript{b}$
+	 \item $4 = 1*2^2 = 0100\textsubscript{b}$
+	 \item $2 = 1*2^1 = 0010\textsubscript{b}$
+	 \item Donc on obtient 0010 0100 0100\textsubscript{b}
+ \end{enumerate}
+
+ \subsubsection{Autres conversions}
+ Pour les autres connexion il suffit de passe par la base 2 puisqu'on sait tout transformer en base 2 et qu'on sait transformer la base 2 en tout.
+
+ \section{La communication et les réseaux d'aujourd'hui}
+ L'homme a toujours eu besoin de communiquer, il a donc inventé des moyens de communication ayant une portée de plus en plus grande. Aujourd'hui on a une interconnexion de réseaux fiables et rapides.\\
+ Internet a modifié notre quotidien. Avant nos pricipales sources de savoir étaient les livres et les personnes, aujourd'hui internet nous donne acès à plus de savoir.\\
+ Internet a aussi changé notre façon de communiquer, que se soit de façon privée ou publique.\\
+ Internet et les réseaux ont aussi modifié le monde de l'entreprise, d'abord part les réseaux interne permettant le partage de données privéee simples, puis par de nouveaux moyen de communication permettant même la formation d'employés. Cette transformation a permis un gain financier pour les entreprises.\\
+ Enfin internet a changé la façon dont nous nous divertissons.
+
+ \subsection{Les classifications de réseaux}
+ Il existe 2 critères permettant de classer un réseau:
+ \begin{itemize}
+	 \item L'étendue du réseau
+	 \item La technologie de transmission
+ \end{itemize}
+ \subsubsection{L'étendue du réseau}
+ Selon l'étendue du réseau on peut avoir:
+ \begin{itemize}
+	 \item \textbf{PAN} (\textit{\textbf{P}ersonal \textbf{A}rea \textbf{N}etwork})
+	 \item \textbf{LAN} (\textit{\textbf{L}ocal \textbf{A}rea \textbf{N}etwork})
+	 \item \textbf{MAN} (\textit{\textbf{M}etropolitan \textbf{A}rea \textbf{N}etwork})
+	 \item \textbf{WAN} (\textit{\textbf{W}ide \textbf{A}rea \textbf{N}etwork})
+ \end{itemize}
+
+ \paragraph{Réseau PAN}\leavevmode
+
+ \medskip
+
+ \indent
+ \textbf{Taille}: 1m à 10m\\
+ \indent
+ \textbf{Etendue}: Equipement proche\\
+ \indent
+ \textbf{Technologie associées}: Bluetooth\\
+ \indent
+ \textbf{Exemple}: Réseau entre gsm, kit main libre\\
+
+ \paragraph{Réseau LAN}\leavevmode
+
+ \medskip
+
+ \indent
+ \textbf{Taille}: 10 à 1km\\
+ \indent
+ \textbf{Etendue}: Batiment ou campus\\
+ \indent
+ \textbf{Technologie associées}: Ethernet, Token Ring, FDDI\\
+ \indent
+ \textbf{Exemple}: Réseau de l'ISIMs\\
+
+ \paragraph{Réseau MAN}\leavevmode
+
+ \medskip
+
+ \indent
+ \textbf{Taille}: 1km à 100km\\
+ \indent
+ \textbf{Etendue}: Villes\\
+ \indent
+ \textbf{Technologie associées}: FDDI, DQDB, MPLS\\
+ \indent
+ \textbf{Exemple}: Réseau FedMAN\\
+
+ \paragraph{Réseau WAN}\leavevmode
+
+ \medskip
+
+ \indent
+ \textbf{Taille}: + de 100km\\
+ \indent
+ \textbf{Etendue}: Pays ou continent\\
+ \indent
+ \textbf{Technologie associées}: ATM, Frame Relay, Ethernet\\
+ \indent
+ \textbf{Exemple}: Réseau BELNET\\
+
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[scale = 0.5]{types_reseaux.png}
+	 \caption{Les différents types de réseaux}
+ \end{figure}
+
+ \subsubsection{La technologie de transmission}
+ On distingues deux sous types:
+ \begin{itemize}
+	 \item La diffusion
+	 \item Le point-à-point
+ \end{itemize}
+
+ \indent
+ La \textbf{topologie physique} d'un réseau est la structure physique de celui-ci, la façon dont il est arrangé dans l'espace.\\
+ \indent
+ La \textbf{topologie logique} d'un réseau est la façon dont les appareils se partagent le réseau et elle dépend de la méthode d'accès au réseau.\\
+
+ \smallskip
+
+ \indent
+ En générale quand on parle de topologie, on parle de topologie physique. C'est un schéma, une architecture ou encore un plan de ce réseau.\\
+ La topologie d'un réseau est très importante par rapport à l'évolution, l'administrastion et les compétences du personnel amené à s'occuper de ce réseau.
+ \paragraph{Les réseaux à diffusion}\leavevmode
+
+ \smallskip
+
+ Un réseau à diffusion est composé d'un seul support de transmission partagé par tout les appareils.\\
+ Chaque message est envoyé à tous les équipement mais seul le (s) destinataire (s) le traite (nt). Ceci est appelé une transission à diffusion générale (envoi \textbf{broadcast}).\\
+ \begin{figure}[h]
+	 \begin{subfigure}{.5\textwidth}
+		 \centering
+		 \includegraphics[height=3cm]{bus.png}
+	 	 \caption{Topologie en bus}
+	 \end{subfigure}
+	 \begin{subfigure}{.5\textwidth}
+		 \centering
+		 \includegraphics[height=4cm]{ring.png}
+		 \caption{Topologie en anneau}
+	 \end{subfigure}
+ \end{figure}
+ \paragraph{Ethernet}\leavevmode
+
+ \smallskip
+
+ Ethernet est très utilisé, surtout en local. C'est une topologie en bus donc tout les appareils sont relié à un même support de transmission (appelé bus). Ethernet utilise les protocoles CSMA/CD (\textit{Carrier Sense Multiple Acces with Collision Detection}) pour gérer la façon dont les données sont transmises.
+
+ \paragraph{Token Ring}\leavevmode
+
+ \smallskip
+
+ Le token ring utilise une topologie en anneau et la méthode d'accès par jeton. Seul l'appareil ayant le jeton à le droit de transmettre sur le réseau. Chaque noeud est relié à un MAUi (\textit{Media Access Unit} ou \textit{Multistation Access Unit})\@.
+
+ \paragraph{FDDI}\leavevmode
+
+ \smallskip
+
+ Le FDDI (\textit{Fiber Distributed Data Interface}) est prévu pour la fibre optique. Il est constitué de deux anneau (Un anneau primaire et un secondaire qui sert é détecter et corriger les erreurs). Il utilise également également le système de jeton et est capable de fonctioner même s un MAU tombe en panne.
+ \begin{figure}[h]
+	 \begin{subfigure}{.5\textwidth}
+		 \centering
+		 \includegraphics[height=3cm]{tokenRing.png}
+		 \caption{Représentation d'un Token Ring}
+	 \end{subfigure}
+	 \begin{subfigure}{.5\textwidth}
+		 \centering
+		 \includegraphics[height=4cm]{FDDI.jpg}
+		 \caption{Représentation d'un FDDI}
+	 \end{subfigure}
+ \end{figure}
+
+ \subsubsection{Les réseaux point-à-point}
+ Un réseau point-à-point est composé d'un ou de plusieurs supports qui relient une paire d'appareil seulement.
+ Si deux appareils ne sont pas connecté ensemble, le message vas passer par d'autres appareils. Ceci est appelé une transmission à diffusion individuelle (envoi \textbf{unicast}).
+ \begin{figure}[h]
+	 \begin{subfigure}{.5\textwidth}
+		 \centering
+		 \includegraphics[height=2cm]{pap}
+		 \caption{Topologie point-à-point}
+	 \end{subfigure}
+	 \begin{subfigure}{.5\textwidth}
+		 \centering
+		 \includegraphics[height=4cm]{star}
+		 \caption{Topologie en étoile}
+	 \end{subfigure}
+	 \begin{subfigure}{.5\textwidth}
+		 \centering
+		 \includegraphics[height=4cm]{maille}
+		 \caption{Topologie maillée}
+	 \end{subfigure}
+ \end{figure}
+
+ \subsection{Mode de fonctionnement des réseaux}
+ \subsubsection{Modèle client-serveur}
+ Un appareil qui communique sur le réseau est appelé hote. Un hote peut être soit serveur, soit client soit les deux en fonction des logiciels installé.\\
+ Un \textbf{serveur} est un hot capable de fournir des données. Il est passif, il est constamment pret à répondre à une requète d'un client grâce à un démon.\\
+ Un \textbf{client} est une hote capable de d'aller chercher des données sur un serveur. Il effectue une requète auprès d'un serveur pour obtenir des données ensuite il attend une réponse.\\
+
+ \subsubsection{Modèle Peer to Peer}
+ Les hotes fonctionnent en tant que client ou en tant que serveurs aux autres simultanément.
+ \paragraph{Avantages du P2P}
+
+ \smallskip
+
+ \begin{itemize}
+	 \item Facile à configurer
+	 \item Moins complexe
+	 \item Coûts plus faible
+	 \item Pratique pour les taches simples et les réseaux de petite envergure
+ \end{itemize}
+
+ \paragraph{Inconvénients du P2P}
+
+ \smallskip
+
+ \begin{itemize}
+	 \item Pas d'administration centralisée
+	 \item Peu sécurisé
+	 \item Non évolutif
+	 \item Risques du ralentissement (chaque hote est serveur et client)
+ \end{itemize}
+
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=3cm]{p2pvsserver}
+	 \caption{P2P vs client-serveur}
+ \end{figure}
+
+ \subsection{Les composants des réseaux}
+ Peu importe son infrastructure, un réseau sera toujours composé des 3 catégories de composants suivants:
+ \subsubsection{Les périphériques}
+ \begin{itemize}
+	 \item \textbf{Les périphériques finaux} ou hotes. Ils servent d'interface entre le réseau et les utilisateurs.
+	 \item \textbf{Les périphériques intermédiaires} qui connectent les périphériques finaux et s'occupent de la transmission des données.
+ \end{itemize}
+
+ \subsubsection{Les supports de transmissions}
+ Il peut être de plusieurs types:
+ \begin{itemize}
+	 \item Cable en cuiver
+	 \item Fibre optique
+	 \item Transmission sans fil
+ \end{itemize}
+ En fonction du support le codage des données sera différent (impulsion életrique, impulsion lumineuse, onde électromagnétique\ldots)
+
+ \subsubsection{Les services et les processus}
+ Ce sont les programes exécutés sur les périphériques.\\
+ \indent
+ Un service fournit des information suite à une requète.\\
+ \indent
+ Un processus fourni les donctionnalités qui dirigent et déplacent les messages à travers le réseau.
+
+ \subsection{Les symboles}
+ Les schémas sont pratique pour représenter un réseau. On a donc inventé des symboles reconnaissables par tous pour représenter les différents composants vu au point précédent:
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=7cm]{icons}
+	 \caption{Les différents icones représentant les composants d'un réseau}
+ \end{figure}
+
+ \smallskip
+ \indent
+ Une \textbf{carte réseau} (NIC) Fournit la connexion physique à au périphérique.
+
+ \smallskip
+ \indent
+ Un \textbf{port physique} est un connecteur sur un périphériqe par lequel celui-ci est connecté au réseau.
+
+ \smallskip
+ \indent
+ Une \textbf{interface} est un port spécifique d'un périphérique interréseau qui se connectent à des réseaux individuels.
+
+ \medskip
+ \indent
+ Sur un \textbf{diagramme de topologie physique} on indique la configuration physiques des periphériques, des ports, des cables\ldots
+
+ \smallskip
+ \indent
+ Sur un \textbf{diagramme de topologie logique} on indique les périphérique, les ports et le schéma d'adressage IP\@.
+
+ \subsection{Internet, le seul vrai}
+ \textbf{Internet} est un ensemble mondial de réseaux interconnectés qui coopèrent pour échanger des informations en utilisant des normes cohérentes et communément reconnues.
+
+ \smallskip
+ \indent
+ Il a donc fallu créer des normes et une structures et ce sont des organisations comme l'IETF, l'ICANN ou l'IAB qui s'en sont chargées.
+
+ \medskip
+ \indent
+ Un \textbf{intranet} est un LAN privé grâce auquel une entreprise communique des information en interne.
+
+ \smallskip
+ \indent
+ Un \textbf{extranet} permet à une entreprise de communiquer des données privées avec d'autres entreprises.
+
+ \medskip
+ \indent
+ Pour être connecté à internet, un particulier doit passer par un FAI qui peut lui permettre d'accéder à internet par différentes manières:
+
+ \paragraph{Par cable}\leavevmode
+
+ \smallskip
+
+ En utilisant les cables coaxiaux utilisé pour la télédistribution, on fourni un accèes internet haut débit via un modem spécialisé qui sépare les différents signaux.
+
+ \paragraph{Par xDSL} (\textit{Digital Subscriber Line})\leavevmode
+
+ \smallskip
+
+ En utilisant les cables téléphoniques, le xDSL fourni un accès à internet par la séparation de trois canaux: Le premier pour les appel; Le second plus rapide pour le download; Le troisième un peu moins rapide pour l'upload. Sa vitesse dépend de la qualité du cable et de la distance avec la centrale téléphonique.
+ \begin{itemize}
+	 \item L'\textbf{ADSL} (\textit{Asymmetric DSL}) utilise une bande de fréquence en dessous de celle des appels pour connecter l'utilisateur en même temps qu'un éventuel appel téléphonique.
+	 \item Le \textbf{VDSL} (\textit{Very-high-bit-rate DSL}) permet d'atteindre 13 à 55 Mb/s en dowload et 1,5 à 8 Mb/s en upload, ou 34 Mb/s en connexion symétrique
+	 \item Le \textbf{VDSL} permet d'atteindre 100Mb/s en full-duplex.
+ \end{itemize}
+
+ \paragraph{Par fibre} (\textit{FTTx pour Fiber to the x})\leavevmode
+
+ \smallskip
+
+ \begin{figure}[h]
+	 \centering
+	 \includegraphics[height=5cm]{fiber}
+	 \caption{Fiber To The x}
+ \end{figure}
+
+ La fibre optique permet des débits bien plus important que les cables et ses performances ne dépendent pas de la distance à parcourir. Il sagit donc de l'amener au plus pret du client.
+ \begin{itemize}
+	 \item \textbf{FTTN}: \textit{Fiber To The Neigbourhood}
+	 \item \textbf{FTTC}: \textit{Fiber To The Curb}
+	 \item \textbf{FTTB}: \textit{Fiber To The Building}
+	 \item \textbf{FTTH}: \textit{Fiber To The Home}
+ \end{itemize}
+
+
+ \paragraph{Par satéllite}\leavevmode
+
+ \smallskip
+
+ Internet par satéllite est accessible même pour les habitations isolées à condition qu'aucun obstacle ne se trouve entre l'antenne et le satéllite. Il est très couteux à installer mais fournis des débits important et son déploiement est immédiat.
+
+
+
+
+ \paragraph{Par cellulaire}\leavevmode
+
+ \smallskip
+
+ En utilisant les réseaux de téléphonies mobiles on fournis un accès à internet partout ou le réseau cellulaire est disponible. C'est très pratique pour les personnes en déplacement ou qui n'ont pas d'autre solution. Son débit dépend du téléphone, de l'antenne et de la distance les séparants.
+
+
+ \paragraph{Par 3GPP} (\textit{3rd Generation Partnership Project})\leavevmode
+
+ \smallskip
+
+ Grâce à la coopération d'organismes de standardisations tels que l'UIT, l'ETSI, l'ARIB/TCC, le CCSA, l'ATIS et le TTA des spécfications techniques pour les réseaux 3G et 4G ont été mis en place. Ces organisation veillent aussi à la maintenance et au développement des normes GSM (GPRS, EDGE, UMTS et LTE).
+
+ \paragraph{Par ligne commutée}\leavevmode
+
+ \smallskip
+
+ Cette technologie est l'ancètre de l'ADSL\@. Comme l'ADSL, elle recquière une ligne téléphonique et un modem. La connexion se fait par un appel au numéro de téléphone du FAI, Les débit sont donc faibles et le téléphone est inaccessible pendant ce temps.
+
+
+ \paragraph{Par WiMax} (\textit{Worldwide Interoperability for Microwave Access})\leavevmode
+
+ \smallskip
+
+ En utilisant les ondes radio on peut fournir un accèes à internet haut débit sur plusieurs kilomètres autour d'un antenne. Pour augmenter la distance entre le point de collecte et l'utilisateur on met en place des liaisons point-multipoint. Le débit maximum du WiMax varient entre 70 et 240 Mb/s partagé entre les utilisateurs raccordé à une même station, mais sont sensible a de nombreux facteurs, comme par exemple les obstacles qui influence grandement le débit.
+ Ce standard, créé par Intel et Alvarion est ratifié par l'IEEE (\textit{Institute of Electronical and Electronics Enginee}) sous le nom IEEE-802.16. Le WiMax est adapté pour les zones rurales car il permet de s'affranchir des limitations de l'ADSL, ne nécéssite pas de travaux important et permet de fournir un accès à internet nomade grâces à des bornes WiFi.\\
+ \smallskip
+
+ Pour être connecté à internet, une grosse entreprise utilise des moyens plus adaptés, tels que:
+
+
+ \paragraph{Par xDSL}\leavevmode
+
+ \smallskip
+
+ Grâce au SDSL (\textit{Symetric DSL}) on peut fournir les mêmes débit en download et en upload.
+
+
+ \paragraph{Par ligne louée spécialisée}\leavevmode
+
+ \smallskip
+
+ En reliant des bureaux distinct on permet l'échange plus rapide de données interne à l'entreprise. Cette solution est plus honéreuse. On trouves les lignes de E0 (64kb/s) à E4 (140Mb/s) en europe et les lignes T1 (1,544Mb/s) à T4 (275Mb/s) aux USA\@.
+
+
+ \paragraph{Par fibre}\leavevmode
+
+ \smallskip
+
+ Le service Ethernet sur fibre est très rapide et peu couteux par rapport à ses performances, mais il n'est pas disponnible pour tous.
+
+
+
+ \paragraph{Par ligne commutée}\leavevmode
+
+ \smallskip
+
+ Le service par satéllite n'est à privilégier que si aucun autres service par cables n'est disponible car il est plus lent, lus couteux etmoins fiables que les solutions cablées.
+
+ \subsection{Les réseaux d'hier et d'aujourd'hui}
+
+ On parvient aujoud'hui à faire converger des réseaux qui étaient hermétiques entre eux par le passé. Avec ce réseau convergent on peut faire transiter n'importe quel type de donnée par le même canal. De nouvelles normes on été mise en places. Pour pouvoir faire transiter plusieurs communications en même temps sur un réseau, on utilise pour la segmentation et le multiplexage.\\
+
+ \indent
+ La \textbf{segmentation} est le fait de découper une donnée en parties permettant d'entremeler les données. Le fait d'entremeler ces paquet s'appelle le \textbf{multiplexage} et permet de faire passer plusieurs communications en même temps sur le réseau et d'augmenter la fiabilité car les pièces ne passent pas forcément par le même chemin et les erreurs sont plus facile à corriger. Par contre ces techniques sont plus complexes à manipuler.\\
+
+ \indent
+ Dans le contexte actuel l'architecture réseau désigne l'infrastructure, le services et les normes utilisée pour faire transiter des donnée dur le réseau. On essaie de concevoir les architecture selon la règle des 5 neufs (99,999\% de disponibilité). Les architèctures sous-jacentes doivent donc faire attention à:
+
+ \subsubsection{La tolérance aux pannes}
+ L'utilisateur veut être constemment connecté, il faut que le réseau limite l'impacte des pannes. On utilise donc la \textbf{redondance}.
+
+ \subsubsection{L'évolutivité}
+ Il faut que les performances du réseaux ne diminuent pas quand on ajoute des utilisateurs.Pour régler ce problème on utilise un \textbf{modèle hierachisé à plusieurs couches}.
+
+ \subsubsection{La qualité de service}
+ L'utilisateur veux une qualité de réseaux stable et inintérompue. On utilise pour ça des \textbf{niveaux de priorités} qui classe les types de communications selon leur importance.
+
+ \subsubsection{La sécurité}
+ Les exigences en matière de sécurité ont évolué, il faut donc mettre en place ou adapter des \textbf{moyens de sécurisation adéquats}.
+
+ \subsection{Les réseaux et les nouvelles tendances}
+ De nouvelles tendances technologiques apparaissent, obligeant les réseaux à s'adapter.
+
+ \subsubsection{Le BYOD}
+ \textbf{BYOD} signifie \textit{Bring Your Own Devices} est un tendance qui commence à se répendre et qui consiste à apporter son propre matériel informatique au travail.
+
+ \subsection{La virtualisation}
+ La \textbf{virtualisation} consiste à faie fonctionner différentes applications ou OS sur un même serveur physique.\\
+ Ses avantages sont:
+ \subsubsection{Avantages et inconvénients}
+ \begin{itemize}
+	 \item Consolidation et rationalisation d'un parc de serveur car il est possible de réunir plusieurs applications sur un même serveur.
+	 \item Rationalisation des couts en matériel et donc aussi en électricité.
+	 \item Portabilité des serveurs car une machive virtuelle peut être déplacée sans devoir déplacer le serveur.
+	 \item Administration simplifiée.
+	 \item accélération des déploiments de systemes et d'applications.
+ \end{itemize}
+ Mais ses désavantages sont:
+ \begin{itemize}
+	 \item Cout du matéreil important car pour une virtualisation éfficace il faut un serveur multi-coeurs avec beaucoup de RAM\@.
+	 \item Panne de plusieurs services si un serveur tombe en panne.
+	 \item Compromisation de toutes les VM présentes sur le serveur si un hacker a accès à celui-ci.
+ \end{itemize}
+ \subsubsection{Les différents types d'hyperviseur}
+
+ \textbf{L'hyperviseur de type 1} se place entre les VM's et les matériel physique. Il possède son propre noyaux sur lesquels tournent les applications et il s'administre depuis un interface.\\
+ Exemple: VMWare vShere\\
+
+ \indent
+ \textbf{L'hyperviseur de Type 2} ou architecture hébergée fonctionne comme un application sur un OS, les performances sont donc réduites mais l'étanchéité entre les OS installés sont parfaits.\\
+ Exemple: VMWare Workstation\\
+
+ \subsection{Le Cloud Computing}
+ Le \textbf{Cloud Computing} consiste à utiliser des resources informatiques situées sur un serveur distant moyennant payement. Celà permet de soulager les ordinateurs locaux qui communiquent avec le Cloud grâce à un navigateur internet, ce qui permet d'utilsier le Cloud sur n'importe quel périphérique. On s'en sert aussi pour stocker des informations.
+ \subsubsection{Les différents types de Cloud}
+ Le \textbf{Cloud personnalisé} fournit des applications et des services répondant aux besoins d'un secteur spécifique.\\
+
+ \indent
+ Le \textbf{Cloud public} fournit des applicatons et des services accessibles par tous, il utilise Internet tour fournir ses services qui peuvent être gratuits.\\
+ Exemple: Dropbox\\
+
+ \indent
+ Le \textbf{Cloud privé} fournit des applications et des services réservé à une entité. Il est accessible via le réseau interne de l'entité ou grâce à une entreprise tiers suivant un protocole de sécurité tres stricte.\\
+ Exemple: Amazonne Web Service\\
+
+ \indent
+ Le \textbf{Cloud hybride} est composé d'un minimum de deux types de clouds différents mais indépendant dons les doits d'utilisations dépendent des droits de l'utilisateur.
+
+ \subsubsection{Les avantages du Cloud computing}
+ \begin{itemize}
+	 \item La flexibilité car les utilisateurs peuvent accéder aux services à tout moment et partout.
+	 \item La réactivité et la rapidité de déploiement car le seul matériel nécessaire est celui pour accéder au Cloud.
+	 \item Des coûts d'infrastructures réduit car le matériel n'est plus à gérer sur le site.% De plus celà coute moins cher d'avoir une salle de serveurs pour plusieurs entreprises et elles peuvent moduler les services en fonction de leurs besoins du moment.
+	 \item La création de nouveaux buisness models car ces ressources facilement accessibles permettent aux entreprises de réagir rapidement aux besoins de leurs clients et de développer des stratégie pour pénétrer de nouveaux marchés.
+ \end{itemize}
+
+ \subsection{Le CPL}
+ Le \textbf{CPL} (\textit{Courant Porteur en Ligne}) permet de connecter un batiment via son réseau électrique un peu comme la technologie DSL\@. Celà permet de réduire les couts en électricité et en matériel. Les utilisateurs peuvent se connecter en LAN depuis n'importe quelle prise courant, même si ce cablage n'est pas prévu pour ça, c'est une bonne alternative lorsque le réseau sans fil n'est pas une option.
+
+ \subsection{Le Big Data}
+ Le \textbf{Big Data} est né du besoin des chercheurs à analyser le monde grâce à un nouvel ordre de grandeur permettant l'utilisation des données. En effet nous prduisons 2.5.10\textsubscript{18} octets de données par jours et le big data est une solution pour pouvoir exploiter ces données. Le Big Data répond à la règle des 3V\@:
+ \begin{itemize}
+	 \item Le \textbf{Volume} important de données à traiter.
+	 \item La \textbf{Variété} des données à traiter.
+	 \item La \textbf{Vélocité} à laquelle les données doivent être traitées.
+ \end{itemize}
+ Le Big Data est utilisé dans de nombreux domaine comme la surveillance ou les statistique qui permettent aux entreprise de mieux se rendre compte des envie des clients.
