@@ -1,0 +1,588 @@
+Hello, this is Jimmy Creech from Cisco Systems and you listening to the fith in
+a series of podcast
+introducing the Internet of everything. This podcast series is a companion to
+the Cisco Networking
+Academy's introduction to the IOE course. And today joining me as with previous
+episodes is Rodrigo Floriano, Bernadette O'Brian, Dane Righetti and Bob Fishon.
+
+in previous episodes we talked about what the IOE is, how the IOE works, what its
+benefit to society is and what are the security and privacy issues that we
+should anticipate with the IOE. And today we are going to talk about what is the
+relationship between IOE and big data.
+
+the relationship between the IOE and big
+data is with the Internet of everything we have all of these connections that
+are happening, all of these, first of all, things that are coming online, so
+billions of devices that are gonna be coming online. And we have all of these
+connections machine to machine, machine to people and people to people
+connections that are happening and all of these connections are producing tons
+of data and so that's really the/ the relationship is that we're producing
+all this data because we have all of these interconnections and that's between
+things, that's between processes, that's between people. And there's really two
+factors to this, there's the data reporting and/ which is the what and data
+analysis which is the why. Basically we want to collect data, manage that data
+and evaluate that data. So today we're taking in data like never before, there's
+tons of data being collected or captured and we're producing more data in a week
+that was produced in a year. So...
+
+You know, Dane ?
+
+Mmhmmh
+
+You, know, you talk about/ we've created more data in a
+week and we've created in a year and I remember/ just recently I saw a complementary
+metric describing 90% of the data that we have right now has been created in
+the last two years alone, which means, you know, all the years preceding the
+last two years makes up only 10% of the data that we have. But I think that
+?that's a tale? as to the exponential growth of data that, you know, every two years another
+90% on top of that. So yeah it's huge the we have.
+
+You know, we are measuring more now, we have more sensors, have  more things
+looking at the events and measuring data and capturing and analysing it.
+
+Yeah, those numbers are just
+incredible, they're astonishing at how much. And, so, where's all this data
+coming from ?
+Well it's coming from, let's say, sensors, devices, mobile devices with embedded
+firmware with monitoring systems but also the data is coming from people
+through social networks, people online rating things, online rating system,
+comments and systems such as ad tracking, cookies, systems that produce
+reports,
+all kinds of things. So, this date is coming in and this data has a lot of value
+if it can be acted upon immediately, if we can analyze this data and do
+real-time analysis and action. As a result of the fact that we have the
+technology today to do it through virtualization and cloud computing and things on
+that, so that brings in the topic of data in motion. Companies are tracking what
+we do, the sites that we visit, the things that we buy, the fact that we
+rate stuff, you know, today, you know, when I want to go to a restaurant I check yelp
+I like to see what other people have done it like to see how other people have
+rated things.
+
+So this explains to me like why/, you know, like the other night I
+was looking for a new mountain bike that I'd like to purchase in the spring and
+then, you know, recently I'm looking at stock prices and right there is this wonderful
+little advertisement showing me the bike that I want and I was looking to
+buying
+just constantly probing me, saying "Hey, you want to look at this again ? You want to
+buy it ?"
+
+Yeah, looks like you were close on this one, you want to give it another
+chance ?
+
+Absolutely
+
+Hey Dans, just for the folks out there who are  actually listening to others
+and don't really know much about what's a web browser, a cookie, would you
+give them like a short explanation of cookies ?
+
+Cookies is an interesting topic
+because a lot of people like to turn those off because they're fearful
+that they're being tracked or that cookies could lead to a virus. Cookies is
+just a little bit of text that is created on your computer when you visit
+the site and it's not a program so it's not a virus, it's just a little bit
+of text that lets the company know that you've been to the site before. And
+that text, that text file contains things like maybe your user settings, the
+types of the things that you like to do when you're on that site, so that when
+you revisit that site it gives information to the site regarding your
+preferences.
+
+I see so, a simple example would be when I go back to the side and it said welcome
+back Roderigo, I means, I've never signed in, they know that's me because of a cookie
+probably.
+
+Yeah, absolutely, that's a good example. But the fact that these companies
+are able to get that information and they know what we like, they know
+what were doing. And the ideas that they can give us better service and better
+targeted service and, you know, advertisement is another great example. So, the
+advertisement industry was completely changed by the online\ by online
+webpages and websites and advertising used to be ads that were not related to the
+content on the page in print, so when you looked at a printed magazine and you
+look at advertisements they were not related to whatever the content is. But the
+exact opposite is what we have on websites, if you're on a website you're gonna see
+related ad content and that's a complete flip in the whole model of
+advertising, so it's very interesting.
+
+So if you bring us back to the data
+reporting and the data analysis that you were talking about a moment ago. You
+know, an example of
+the data reporting and giving me the what(s) that would be like, you knwo, somewhere
+somebody has collected the information that Jeremy was looking at a mountain
+bike and a report would be, you know, they give it to some sales executive or
+whatever and says "Hey, this individual has been looking at these mountain
+bikes". But
+they don't necessarily do anything at the moment with that, but then when you
+add this data analysis component these ?wise?, it's that the
+piece that's making it so that, as I am looking around on other sites then they
+know to create this ad custom for me that says "Hey, there's this mountain
+bike". Is
+is that making the connection there ?
+
+Yes I think you can make the connection with
+that, the curriculum talks about different types of analytics: descriptive
+analytics, predictive analytics and prescriptive analytics. And descriptive
+analytics is the historical data, so historical data on what you've bought and
+who's bought this and this is what was bought last year and this is what's
+being bought this year. But predictive analytics might show a new trend in what
+people are buying today and where things are going. And so then, they can then
+use prescriptive analytics to run a simulation on, let's say, this could be more
+relevant in industries or in organizations that deal with public safety or
+with weather or something like that. They could look at a model or simile model
+say we need to do this because this is what's coming based on our data analysis
+and based on the trends.
+
+So an other example of this would be, let's take
+weather for example just to help me understand this. So an example of the data
+reporting component is just a historical record of/ this is what happened with
+the weather. But the data analysis that comes in and starts to kind of look at
+the trends, the correlations of, you know, cause-and-effect and so as new
+things start to happen/ and that's the descriptive component, right ? The
+reporting piece tells me this is what happened but the descriptive piece looks
+it that thing in a much broader context and greater breadth with the trend and
+analysis and the correlation analysis and says okay because of these things
+that were happening inside of the environment for the atmospher this is why
+that event happened that was reported ?on?. And then if I'm understanding
+this right, then I can create a/ ,as you talk about, predictive, I can create a
+predictive model that is then able to take into account the variables that
+are present and determine if a storm is going to happen again. And then the
+prescriptive piece is then, you know, based off of that these are the things that
+should happen to mitigate the impact or the effects of that storm. So, you
+know,
+if things like road closures, warnings, you know, sending out emergency
+broadcasts, what have you that just/ and that brings a full circle. What
+are some of the things we can do with analytics and big data in addition to the
+weather example, what's some of the other stuff that we can do ?
+
+So I think of
+the example of curring disease when I think about all of this data that we
+have available to us. In fact, you know, you wonder, the big question is can big data
+cure cancer and cure disease, help us cure diseases. So researchers are capturing
+huge amounts of data on as many cancer patients as possible and they're analyzing and
+sequencing the genomes of these tumors in depth. This is allowing the
+researchers to create more targeted therapies for a particular tumor. They're also
+using this data to predict the possibility of people developing particular
+cancers and therefore being able to preemptively treat those cancers. The
+challege
+in this research has been enormous amounts of data produced when
+sequencing the genomes of tens of thousands of tumors. But some British
+researchers have taken a step toward solving this by creating a database of all
+this information that has as a such feature that allows cross referencing
+the results from across the different fields of cancer research. Definitely I'm
+sure we can predict that we're going to see some real developments in the fight
+against cancer.
+
+That's amazing ! Before we were able to make these, like broad,
+generalizations alright ? You know, we see this huge population and within this
+population there is this large majority that has, you know, this symptom
+or has cancer. And another large commonality with this population is, you know,
+some other thing that's a part of their environment, that's a detriment,
+that's, you know,
+that's potentially causing it. So they make this huge general connections but now
+with the amount of data they we're able to get it sounds like the
+correlations that we're able to do with that and now were able to get much much
+more detail and is not like making these broad stereotype in general
+statements,
+but we're able to get down to like, you know, at the individual level these are the
+things pertinent to you, the variables that exist around you that are causing
+this issue to come up. Is that capturing it ?
+
+That's exactly right and in addition, they're no
+going to just be treating the cancer, but they're going to be treating that
+particular cancer in you. So it's actually developing a medicine that will be
+almost specialized to you as an individual. It's very amazing !
+
+Another area where
+real-time data and analysis is very saving lives is a city in the North of the
+United States has implemented a routing and vehicle location system for their
+ambulance service. This has improved response rates to less than six minutes
+which is compared with the national standard of eight minutes and 59 seconds, so
+this has immediately saved lives. The vehicles are outfitted with sensors and
+GPS feeding back, you know, real-time information about their location etc. back to
+the central calling station.
+
+It's just a really amazing and (that's) hard to wrap my head
+around the amount of data we are talking about here.
+
+Consider that organizations just
+don't have business data as a source of information anymore. There's all that
+environmental stuff for example sensors, video cameras, RFID tags and then
+there is also the
+social media data that we can get from customer feedback online, forms and
+Facebook. Now, all of these sources interact with the four pillars of the IOE
+and this interaction even generates additional data and eventually this becomes
+big data. So when does data become big data ? Well big data is distinguished
+usually by volumes, so how much there is, so when we refer to  big data we're
+talking about
+very large data sets. Some definitions have it at 100 TB of information is
+considered to be big data - or bigger -. For example banks, governments, airports they
+generate big data. Another distinguishing feature of big data is how it's
+processed, so what we mean here is which types of analytic tools are using to
+extrapolate the information. Now, the sheer volume of big data is difficult for
+traditional relational database systems like SQL Oracle to process and
+extrapolate information. But big data requires a more powerful analytic
+tools and we've mentionned these already like, we mentioned Adobe NoSQL map
+reduce and such. So again big data is distinguished between how, you know, how big it
+is and what tools ?you're? using. And then, we describe data using something called
+a 3V's and that's Variety Volume and Velocity. So variety describes the type of
+data and there's all kinds of big data there is text, binary data like Word
+documents,
+PDF, spreadsheet, database files and such there's multimedia documents like
+audio,
+photos and videos and these are either structured or unstructured, so that's
+the variety. The volume is basically the amount of data that's being stored,
+analyzed and
+transported so, you know, in order to understand or appreciate volume we almost
+need to go back to what a bit is and, you know, and I'm sure most of our
+listeners know what a kilobyte and the megabyte and a gigabyte and such is and
+then get the terabytes and, you know, most new computer today would have like a terabyte
+drive or 2 TB drive and such, but when we talk about big data we're going beyond
+that, so we're going from terabytes which is 10 to the power of 12 to a petabyte
+and even to an exabyte and down the roads zettabyte, so we're going from 10 to the
+power of 12 to a zettabyte that's 10 to the power of 21. And, you know, just for
+example, like within the last decade the volume of data taht was produced in the year
+is not produced in a week so that's 20 EB of data produced per week. And this
+data continues to grow exponentially as more more of the unconnected becomes
+connected.
+
+If you're listening to us now and you're thinking that this amount
+of data is way too much, nobody's never gonna need that, just remember the not
+too long ago we thought that one of those little floppy disks they would be
+enough and that's all what I mean right ? You could have had all your
+applications running on one floppy disk and
+you were happy, it was just what 15, 20 years ago and it's not even/ you know, so
+before you say that this is too much data we never gonna need that, just think
+about that little.
+
+Yeah and consider the amount of hard drives we're gonna need to store
+all this information.
+
+Right, right.
+
+So that was Variety and Volume, that was the 2V's the third V
+is velocity and that's the rate at which data is moving so, you know, we've already
+mentioned that as the unconnected becomes connected more data is gonna be generated
+and were producing 20 EB exabytes of data per week, but this data is growing
+exponentially. So just to put things into perspective linear growth is when
+something increases in a predictable manner so for example you get a 1% pay
+increase per year, it's predictable. Exponentially this is where it's a lot more
+dramatic than linear growth so that would be if you happen to get the job of your
+dream and you got a pay raise doubled every year, so for example you get 1%
+the first year 2% the next year 4% 8% and in seven years you can
+retire. So we do care about exponential growth because big data is
+exponential. So for example a Cisco visual networking Index forecast that data
+growth by 2018, that the global Internet traffic will be equivalent to that
+of 64 times the volume that we had back in 2005, so that's not just, you know,
+it's
+increasing by a certain percentage, it's increasing exponentially. So I hope
+that answer your question.
+
+Bob, I got another question, I'm sorry Jeremy to
+interrupt, but you do mention a few V's, I actually have heard of other V's
+other than those, do you know anything about those V's, more V's, people like
+V's I guess.
+
+Yeah, well, there is a few of them, actually there's three other V's
+that I know of, there's data Value and that's how valuable the information generated
+is and, you know, we mentioned earlier real-time data on its own is not especially
+valuable but real-time data with real-time analysis is very valuable so that's
+one of the V's. Data Virtualization, that refers to where is it located in and,
+you know, consider a data as all over the place, we have some in spreadsheets, we
+have some in databases and all over the place and Bernadette was mentioned the
+cancer research and how it's able to to pull all this information together and
+that's usually done using virtualization technologies. And the last one is data
+Veracity and that's when I'm gonna talk a little bit more about because it's how
+truthful or reliable is the information, now consider that on the Internet for
+the most part you can trust the information that you're reading so a map of the
+country or a company website talking about a product and such, to some degree
+you know it's gonna be accurate, but there's also inaccurate
+information out there, so some information could be dated or unconsciously
+incorrect or malicious people can be making up things and it could go viral
+Dane mentioned, you know, checking yelp before you go to a restaurant, how accurate
+is that information ? How do you know they really went to the restaurant ? So,
+ou know,
+social media is inherently uncertain, you know, Jackie Chan, Jon Bon Jovi and Lady
+Gaga are not dead there are, you know, alive and still singing so don't believe
+everything you hear on the net. You know, so, from an organizational standpoint
+now,
+so how do you make sure about veracity ? Well they have to follow
+basically a philosophy of trust but verify, so you do trust the information
+that's
+there but you always verify before you act on it and some companies are even
+going as far as giving data veracity scores an ranking for specific sets of
+data and that will help make, you know, better decisions and avoid making bad
+decisions.
+
+Something you mentioned Bob is/ you mentioned data virtualization and that
+in particular kind of peaks my interest because I think that is a critical enabler as
+we talk about data analysis moving forward in the context of big data
+traditionally it's/ we've got a lot of different transactions that are taking place
+that are all kind of have their own data repository and in those data
+repositories will then be kind of groomed and then uploaded to a data warehouse
+and the data warehouse serves as kind of the central consolidation point for
+this.
+And sometimes, you know, like they'll take a data warehouse and carve that up into
+data markets that can then serve specific needs of a particular function, so
+the data market would take a piece of the data warehouse to conduct an analysis on
+it for other purposes of financial results or for the purposes of sales
+forecasting, but all of that takes a lot of time and there's a lot of movement
+of that data, we're talking about lots of data with overnight uploads or, you
+know,
+every week incremental uploads are, you know, holistic uploads. But when we talk about data
+virtualization, data virtualization is an enabler that is able to take a
+snapshot of all the data that it needs from a real-time perspective to be able
+to facilitate the predictive and the prescriptive elements of how to
+take action on real-time data that's happening right now.
+
+Yeah and it does that without
+changing the original data, like ??? when it does/ it takes a
+snapshot right ? It takes a snapshot and manipulates it, but the original data still
+where it was, so you get some layer of protection there.
+
+Right, the computing infrastructure
+that's necessary to support that is something that's definitely
+growing as we talk about cloud infrastructures, network infrastructures that are
+able to acount for that volume of data and the ability to do real-time
+analysis on that data.
+
+Yeah, so for example we had talked in a previous podcast
+about the Cisco application centric infrastructure, Cisco ACI which is part of
+that whole software defined networking of virtualizing the data center and
+such,
+well it's built to do that, it's built to be able to support in a very/ it's
+called a two-tier topology of spine and leaf and it's built to be able to
+retrieve that information from any location and the data virtualization is
+basically using software like Hadoop and Hadoop file system which goes out
+maps everything from does matter if it's a spreadsheet or if it's an SQL
+database or if it's real-time data coming in and puts it into like one
+platform that can extrapolate the information from it. And that's where like the SQL
+databases on it's own, like SQL and Oracle they were able to basically get the
+information from their database, you know, for it to be able to pull information
+from all these other sources that's where they're not really built for that and
+that's where data virtualization comes.
+
+For our listeners as we talk about
+MapReduce and Hadoop, I don't know that we've expended on that in past
+podcasts, but, you know, we talk about these very large data repositories and then you
+want to conduct analysis to it but that's a lot of numbercrunching that
+requires a lot of compute power and so MapReduce, what that is, is that
+it takes that large repository and breaks out into smaller pieces that
+different computations can be ran again, so it's distributed computing it
+takes a large volume of data, it distributes the data all across a large
+number of distributed computing platforms so that it's almost parallel
+processing, it allows a lot of different devices to be able to manage the analysis
+of a large volume set much much more quickly and that's MapReduce but when
+they/ the creators of map reduce they open sourced that on the Apache platform and
+it was named Haddop.
+
+And when we're talking about real-time analysis, the first
+thing that comes to mind is the concept of the data in motion, right ? The
+data in motion and data at rest, the two terms that you're gonna
+hear a lot when dealing with this data analysis and dealing with IoE
+and the big data. And in a way really, the data in motion is when you're
+trying/ when you you're analyzing running some sort of a processing
+against the data as you capture it. So that would be, you know, (what) we are talking
+about and how you can, how a company can see if a specific product they have is
+selling a lot right now or not selling. I mean, having information about
+that specific sale at the moment it's happening, this is data in motion, you're
+analyzing everything as it happens, in the opposition of data at rest
+which would be more towards the example that was given in this conversation a
+little earlier when you want to see/ you want to know about what happened in
+the past with the weather, if it was cold at this time of the year for the last 20
+years, 25 years, so this kind of analysis is really done by data that's already
+stored. So this would be/ it's called the data at rest,
+it's very interesting when you're talking about the data in motion because while
+there is a few benefits, for example I don't have to worry about sending this
+data to a data center, I don't have to worry about the network structure to
+support all this data because I'm not/ I don't really care about sending, I want
+to analyze it right away, as soon as possible, I also don't have to worry about
+any place to store this data 'cause I don't really care about storing what I
+want to know is what's happening right now. This may look like a benefit
+but there is a downside which is I have to have now the ability to process this
+data at the source, so if we're talking about sensors, the sensors now have to be a
+little more powerful or powerful enough to be able to process the data as they
+are being capture, as this data is being captured. So it's really, it's/ there
+is no
+brass when you're talking about data in motion and  data at rest, it's really the application
+that you're going to put/ these two terms you're gonna, you know, your application is
+going to say which one, which type of data you're gonna be looking at. I can
+give you, guys, an
+example, Jeremy I know you love examples.
+
+I do.
+
+So if we are, I mean,this/ the example
+of the data brass I guess it was pretty clear we were talking about earlier,
+right ? But the weather, it's a very good example, when you want to know/ when I
+have an idea what's going to be the weather in a month from now, doesn't matter
+where you are, if you know, if you're capturing if you're analyzing how was the
+weather in that place at that moment in the last 20, 25 years you should have a
+pretty good idea what the weather's going to be like in a month from now in
+that location, even though it may not be exactly the same temperature rainy or
+sunny, but you'll have a very good idea what's going to happen because you've been
+analyzing this data that has been stored and capture over the years, right?
+But the data in motion/ I'm gonna give another example which is a something that is happening
+now and people are using a lot, I mean talking about it a lot, it's the
+driverless car, right?
+A car that doesn't need any human beings to be guiding the car, to be
+controlling the car. The car is driving itself, if I was to write a piece of
+software to put in the car, to run in the car, it doesn't matter if, you know,
+the road/ how were those roads, the temperature of the road 20 years ago
+or the last year whatever, what I need to know is there is a car in front of me
+should I stop or should I keep moving and I need to know that right then, right
+on the spot, because if it takes me another second to make the decision I could
+be into an accident. So in that kind of situation what I really need is data in
+motion, I need to know what's happening right now to be able to use the
+data to turn that data into information and make an educated decision about what
+path to take.
+
+As I listen to us talk about this, we talked about data before and
+we talk about big data now. And it seems like there's not really clear
+delineation, you know,
+when have I moved from data to big data, to me it's almost like we're
+describing an evolution, it's almost like the Renaissance, if you will, it's like
+we are now in the era of big data and so we need to be cognizant of that and to
+create an infrastructure that is able to take advantage of that and to invent
+processes that are able to leverage it. So I guess my question now is what's
+next ? Where we go from here ?
+
+I think that what is gonna happen is we're gonna see an
+explosion of innovative ideas around the Internet of everything. And one of
+the ways that we get ?to? put those out there is, you know, if I have a great idea for an
+innovative solution, I need to put together a working model, and we call that
+working model of prototype. You know, in order to create that prototype, you have to have
+design skills, electrical skills, mechanical, physical skills to build this
+thing programming skills as well. The trouble is, you know, we're not expert in all of
+those things, so we can do a few things, we can collaborate with others and of
+course you can get help online, there are a ton of great resources pointed out in the
+course that can help you create your prototype.
+
+Bernadette, I mean, as you describe
+prototyping, I mean, it's this really interesting confluence or convergence of lots of
+different knowledge, you mentioned electrical skills mechanical skills
+programming skills and networking skills, you know, once you get this
+object created that has these actuators that can do these things and these
+sensors that can help it understand its environment and the variables around it
+then you get this programming that's able to connect what the sensors sense to what
+the actuators need to do and then, you know, to plug it in to the Internet of everything
+and to make it work and in the larger network of things there's the others this
+networking aspect that goes into it, how do I connect this.
+
+It's hard to know
+also completely where everything is going to go because our lives are gonna be
+changed by the increase amount of information that is
+tracking us or that's providing information. So I think that we don't
+really know exactly how everything's gonna change. And definitely, to pick up
+on Rod's points, not necessarily gonna be all for the good.
+
+It emphasizes the
+responsibility to think about how to do it safely, how to do it securely and how
+to, you know, maintain people's privacy.
+
+So we talked about some of the skills that are
+needed, you know, like design skills, electrical skills, physical and
+mechanical skills,
+programming skills, networking skills and obviously, I mean, as I hear
+about this, as we talk about things, you know, programming is absolutely critical to
+the IOE. You know, where do I go to gain these skills ?
+
+There's a lot of resources including
+the Cisco networking Academy. Cisco's got lots of new courses coming online like
+this one the IOE the Internet of everything courses that students can self
+enroll and many of my students didn't even realize that they could do that and
+as soon as you point it out they're like "wow I can self enroll on this course and I
+could fall on and I can enhance my learning". A lot of people are going online there
+so many programming resources to learn about programming to learn about
+scripting through the web and we find/ I find that in the college system a lot
+of the professors and instructors are utilizing these resources, a lot of people
+today utilizing YouTube and alternative platforms to enhance education, students
+are becoming more resourceful, we've seen the advent of the con Academy which is
+incredible, enormous. I think that there is a lot of online resources that are
+available today including the traditional college/university/school systems and
+the students are really taking advantage of all of these resources and as well
+as you mentioned Arduino's and raspberry pi's and physical computing which is a
+huge deal, people are going to be inventing this is a great time for
+entrepreneurs and inventors who will gonna be taking advantage of the Internet of
+everything and bringing on new devices that will hopefully improve
+our environments, improve our businesses.
+
+This isn't stuff that you have to be in a
+major urban center for or close to a/ the right school that's doing it that/ you
+really do, I mean, check with your local community you might be
+surprised at the number of workshops and classes that are actually available,
+talk to your local governments, talk to local schools, check with your local
+Chamber of Commerce and just go online and look for some expert advice then
+there might be people who might be able to direct you locally to get engaged
+with this. There's things like the ?maker? spaces, there's things like the tech
+shops that are available and these are spaces that have tools like 3-D printers and
+laser lathes and all sorts of stuff that, you kow, for small fierce
+subscription bases,
+you can get access to these tools and it's ideal for the Tinker, you know, you don't
+have necessary thousand dollars laying around to purchase these things but, you
+know, a few bucks in a month you can get access to this stuff and kind of
+playing around with creating your own stuff from a mechanical or physical
+perspective as well as an electrical perspective as well as just join the
+community, get involved with other people who are doing this and glean from one
+another and share ideas and, you know, just get those innovative juices flowing
+?the?
+kind of prototype something, create some models see what the possibilities
+really are.
+
+Yes, so on top of all, Jeremy, all those, you know, amazing
+resources you mentioned, there's also something very similar, there is the hacker
+spaces, it's very similar to the maker space, you can learn a little bit of
+coding, you
+learn a little bit of IT in general, right ? How to deal with computers OSs and whatnot
+it's a very very good place to check to learn more and to experiment. There's also the
+hackaton also very very interesting idea you get together with other people
+running through some challenges and, you know, it's just fun, it's just really
+really fun stuff and it's gets much much better to learn this kind of technology
+when you have other people working together and, you know, being partners and
+showing off and in sharing ideas it's really amazing time to
+be a learner, I guess I can say.
+
+The other thing is, in the curriculum, the curriculum
+highlights these recorded PKZ files from packet tracer that include all of
+these sensors and actuators and controllers and so the students who go
+through the IOE curriculum are gonna notice that packet tracer has these new
+Internet of everything devices within packet tracer.
+
+And for our listeners who may
+not know, packet tracer is a simulation tool for creating a network.
+
+For free by the way.
+
+Right and so, with the new version of packet tracer which is not
+out yet but is gonna be coming out soon it's gonna have Internet of everything
+enabled devices within the packet tracer program, within software so that you
+can set up your own simulated models or your own simulated networks that have
+that capability built into them so that's really cool and I'm looking forward to
+when that comes out.
+
+Yes with the rapid expansion of the Internet of everything
+and these 50 billion connections that we're talking about, this is
+creating a global shortage of people who are qualified to work on maintain
+these networks. And also we've got the implementation of IPv6 happening
+globally.
+Yeah, we need skilled people to maintain and implement these solutions, we need
+people who have these security expertise to secure data and to secure all these
+new devices that are being connected to our networks.
+
+Yeah and not only that, we're gonna need
+people to write code, we're gonna need people to be able to come up with these new
+analyzing models, right ? So people with some knowledge in the math and
+especially,
+if you're talking about math, especially in statistics, we're gonna need people
+in that kind of area as well, people with knowledge on engineering, knowledge
+on electronics that's not gonna be if you are into IOE you're not gonna be
+unemployed. I guess I can say that much.
+
+Definitely and there's no doubt about it.
+
+Well guys, I have really enjoyed this conversation, the series of
+conversations that we've had as we conducted this podcast and today's
+conversations talking about the opportunities that are there for us,
+what we can do in the future the opportunities for the inventors the
+opportunities for innovators and entrepreneurs and just in general, just
+employment around the IOE I think it's a fascinating time and I'm really excited
+and looking forward to things to come. I want to thank all of our panelists Bob Dan
+Bernadette and Rodrigo and most importantly I'd like to thank all of our
+listeners. Thank for listening to this series on the Internet of everything.

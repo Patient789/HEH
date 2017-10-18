@@ -1,0 +1,355 @@
+Hello, this is Jeremy Creech for Cisco Systems and you're listening to the
+fourth of a
+series of podcast introducing the Internet of everything. This podcast series is a
+companion to the Cisco networking Academy's introduction to the IOE course and
+joining me again today from previous episodes is Dan Albaghetti Bob Fishon
+Rodrigo Floriano and Bernadette O'Brian.
+In past episodes we talked about what the
+IOE is how it works and we've also talked about what the benefit is to people
+but as we've had these conversations we've also kind of discovered or revealed
+that there are some concerns around security and privacy which is the topic for
+today's conversation. And so Roderigo I wanted to kind of direct this first
+question to you which is, you know, security is always a concern when we're dealing
+with technology, especially prevalent with current events going on here as
+of late. What are some of these concerns can you kind of describe that for us ?
+
+Yes sure. The main problem I think it is because when we are talking about the
+IOE we have these devices pretty much everywhere right ? You can be wearing
+them,
+they can be in your car, they can be in your home they can be at work. So people have some concerns
+related to some exploitation of these devices. Let's say if you have in your home
+a security system with a set of cameras and someone manages to
+get a hold of that, of, you know, the hacker attacks it and now it's taking care
+of your cameras right looking through your cameras and it takes over, now those
+cameras can be used against you, that/ the entire system can be used against
+you. So this is kind of, you know, the type of concerned that people
+have. On top of that concern I believe there is also a psychological
+effect, where people may think that, you know, because of the IOE because as I
+said, it's everywhere, now they're beeing monitored they're beeing watched at
+all times so if you walk
+into a store the store may wanna know where you are inside that store, what
+kind of shopping you are doing to help you in the future, you know, to be more
+agile to you. But that fact that you're being watched and you know that
+you'll be monitored it doesn't really go very well with some people.
+Now in the other hand because if something goes wrong in a situation like that,
+the reputation of the company can be seriously hurt, right ? We have some
+examples I'm sure we're gonna be talking about this in this podcast, but the
+case that have
+happened last year with target, they lost a number of cards like millions
+and millions of card numbers from their customers and I am sure that
+people that got hurt because of that will not forget that for this year's
+holiday shopping season, right ? So from from the company's aspect it's also
+important to make sure that these things are safe because their reputation is on
+the line.
+
+Yha, it was a frustrating experience for me I went through two new card
+issues as a result of target and Home Depot. I guess
+
+See there you go
+
+Yea, it's frustrating, you know, you bring  up a really good point Roderigo
+with regards to kind of/
+reasons to be concerned, why we need the security. What I'm wondering is,
+Bernadette I know you've done some kind of research into this, you know, how do
+we implement the security in the IOE context ? Where does security reside ?
+
+Well, the course has a whole module dedicated to just that question, security and
+the Internet of everything. And John Stewart, chief security officer at Cisco,
+explained in a video presentation the answer to that, you know, how security/
+how it should be and must be included in the Internet of everything. He emphasizes
+that as more and more devices are connected, network administrators and cyber
+security experts have to be proactive and ensure that these potentially
+nonsecure devices like sensors actuators smart devices etc. are secure. And we
+hear every
+day, as we've just heard from Roderigo, you know, how our information is being
+stolen, so, vigilance
+by these companies as people process data and things all become connected to
+the IOE, is essential. He also points out that securing all these connections
+come into a network is going to require adaptable and dynamic solutions. So it's
+about the network and it's not just about securing the individual devices it's
+about integrating the security throughout the network.You know, I've been looking
+at their ??? and he also talks about this to John Stewart, that Cisco is taking
+a leadership role in dealing with this issue in the Internet of everything.
+They're
+also collaborating with other businesses because you know as we seen it's
+important to these businesses to be prepared and to be proactive. It's a
+pressing issue,
+because as devices and people are connecting at this phenomenal rate 50 billion
+connections are going to be happening within the next 10 years, it's amazing.
+You know, one of the things that is beeing a bit of an issue too, is that we've got to prepare the
+experts/ we've got to prepare expertes, so they can deal with this. Cisco announced in
+October 2014 that they formed an industry talent consortium made up of
+businesses recruiters and educational institutions to help develop the
+skills that are required to cope with this rapid increase in connected devices
+and particularly to address security and privacy issues.
+
+When it comes to the
+IOE that's another problem with the new thing among the bad guys now,
+the hackers, now, which is going for the devices that are not exactly
+computers.
+they are but not in the way we know. Let me try to explain this. When you're
+talking about the computer, right ?, your PC, your phone, your tablet, they're
+running OSs,
+there running probably a version of Windows or Mac OS or android or IOS, Apple's
+iOS, right ? These are the big players in the market and the beauty is people have
+been working on this systems for a while now and they're designed to be
+updated.
+So, if for some reason someone finds a way, an illegal way into these systems
+the companies responsible for the systems have teams and teams of people ready
+to jump in and prepare an update. So to fix that point where the bad guys could
+enter, right, that point that could be exploited and to gain illegal access to the
+system. But when we're talking about the IOE these devices are/ it could be your TV
+it could be your coffeemaker as we mentioned in earlier podcast. It could be
+your car and most of the times these devices will not be running in the ways
+that have been in the market for as long as these main players that we were talking
+about earlier. So what I'm trying to say is if you are talking about your car,
+your cars is running an OS which probably is not going to be called in operating
+systems, it's probably gonna be called firmware. It's running the software that may not be
+designed to be updated. If you remember back in 2012 I believe there was a virus
+called Stuxnet.
+
+Yeah.
+
+Remember that ?
+
+Yes, related to an attack on Iran nuclear material generation.
+
+That's exactly right. And the hackers, the bad guys what they did was to
+target the machines running side (inside?) this power plants. And the thing is these
+machines are a little bit old and they run a very specific version of a
+system that  it's not easy to upgrade. So once those
+machines were compromised there was nothing really to be done other than toss
+them away and buy new machines. We're talking about a power plant, they have
+thousands and thousands of those things all over the Power plant.
+
+Right.
+
+So it shut down. There is nothing to be done, you have to shut it down.
+
+And so, you're talking about these logic circuits that are inside these
+machines. These logic boards are
+in everything that we have. You know, you gave the example of the car, you
+gave the example that stuxnet attack, but we talked about, you know, the TVs, the
+refrigerators,...
+
+You name it, it's everywhere right ?
+
+Everything. And so this
+makes that risk significantly larger. The potential risks to devices that can be
+compromised has escalated exponentially.
+
+Well, I think that's really interesting
+because the Internet of everything presents a unique security challenge based on
+some of the things Rod was talking about when he talked about operating
+systems,
+embedded operating systems or firmware, operating systems are not necessarily
+gonna be updated. And right now we have these devices that are now infiltrating
+into the home automating things for us, we have smart sensors in our cars and
+all these vehicles but a lot of it is proprietary technology so from the
+security experts point of view it's pretty difficult to all of a sudden update
+and patch all of these different systems that are not even necessarily IP
+address enabled systems. They are not traditional computers as Roderigo was
+saying. So that presents a huge security challenges, you know, do I have the
+firmware on the temperature sensors on my house sufficiently updated and
+patched. You're not gonna be presented with an update warning to your system tray
+in your Windows operating system telling you that has to happen
+because is not a traditional IP enabled device.
+
+So as we presents these security
+challenges and along those lines Cisco has a great white paper on the web right
+now on security intelligence. And one of the topics they talk about are these
+dark spaces on the network these blind spots that the traditional security
+person is not necessarily even thinking about because maybe they're not IP
+enabled devices right and these are places that you're not used to thinking
+about and devices in the Internet of everything that you're not used to
+thinking about. Things like printers or sensors or just devices that are now
+becoming smart and are coming online but yet are not traditional, it's not like your
+operating system where you have the antivirus tool necessarily and it makes it really
+easy, you know, I login and I update my antivirus and I run a scan. Well the Internet
+of everything is going to be adding so many more devices and it's not always be
+that simple. The curriculum talks about by the year 2020 we're gonna have 50 billion
+more devices connected to the Internet. Now that's connected devices IP enabled
+were IPv6 enabled devices but what about all the devices that are not even
+going to be connected to the Internet but yet are still networked and maybe
+have wireless networks and are in our homes ? So we still have to be present to
+that, we have to think about security risks that have not even presented
+themselves yet and that's difficult. So yeah definitely difficulty with patching and
+updating. And Bernadette brought up a point that Cisco is definitely leading the
+way, one of the things that this white paper talks about is the fact that we're
+going to need, and what is already there right now, but basically global data and
+threat analytics, kind of the eye in the sky type of service so that our network
+devices will go out onto the Internet and have constant signature updates and
+constant patches and constant scanning of behavior-based analytics or
+behavior-based signatures on our network devices whether their wireless and
+where ever
+they are to look for lapses in security or authentication or access break
+break-ins things like that. So the Internet of everything really presents an
+expanded attack surface, because we're gonna have all these things that are going to
+be interconnected and it's gonna present huge challenge.
+
+You're making a really
+interesting point. As I think about it, as I think about my home for example it used to
+be that, you know, I just had one PC in the home. But now, you know, I find/
+it's like a
+headache in my household when I think about the number of devices and see what
+each of my children, four children, have a computer, my wife has a computer, I have
+a computer there is what? Three iPads, four iPhones. And when it's time to update
+and run around and keep up with all the stuff I mean seriously I feel like I'm
+looking around for what I need to install a server so I can do a managed kind
+of security distribution program just in my household. And now you start telling
+me about, well, we're gonna connect some TVs we're gonna connect, you know, your landline
+telephones, we're gonna connect your treadmill, we're gonna connect your
+dishwasher. And then and I start to/ if I take a moment and a start to
+think about the number of security updates for me to try and maintain in
+awareness of. That's a headache, you know,. And I don't want to adopt all that, I
+don't want to implement all that. And so, you know, when I was hearing Bernadette talk
+earlier about, well, it makes a lot of sense, the solution can't be managing the
+security on individual devices but something that is more holistic, you know, Dane
+like what you were alluding to, something that takes into account a much greater
+breadth and context of what's going on to manage security more comprehensively.
+And attacking it from, I should'nt say attacking, but mitigating security threats from a
+more centralized or consolidated place. And so, you're talking about security
+threats on the devices themselves but also, you know, Roderigo had alluded to
+this earlier talking about the impact to personal privacy. And I'm interested
+in, you know,
+what sorts of changes, you know, we're talking about the changes that we need to make inside
+of the devices themselves but what sorts of changes, you know, how are things,
+you know,/
+One example I can think of is like the ?hyper? policies that are now in place
+to protect patient privacy. What sort of additional policies, I anticipate
+more policies like that to help protect the privacy of people from a
+policy perspective not necessarily a technology perspective. Can you provide
+comments on that ?
+
+well it's interesting about that is recently we've had the situation where we
+had the
+hack on many celebrities pictures that were uploaded to their cloud-based
+services. So now, not only do we have to, you know, have the security on all these
+devices but everything is also being virtualized. So not only do you have all of
+those computers and systems and connected devices in your home Jeremy, but what
+about all the virtual systems and what about the cloud-based systems ? And so
+from a personal level, you know, my phone, I take a photograph with my phone and
+then two days later it says "hey this is available now to share from your Google
+plus account" because it's been automatically updated to my cloud service.
+Well, I mean, that's essentially something that a lot of people don't even realize is
+happening. So, maybe, you start to wonder, well, are all the celebrities really
+uploading all these you know private photos to the web on purpose ? No, it's
+being automated for them and they're just not accounting for it and then
+that information is then hacked and so it's an added security risks.
+So the security risk has expanded to the cloud now. And so, personal privacy is
+at
+great risk we have/ ,you know, this has been the year of personal data loss with the
+target hack that happened and 40 million cards that were compromised. People
+are gonna have
+to change their behaviors they're gonna have to really monitor the way they're
+doing things. And it's definitely gonna have to change the way people do stuff.
+
+So, Bob, how are gonna mitigate the security concerns in the IOE ?
+
+Well, you know, we all know
+that the Internet of everything is evolving. More and more devices are
+connecting,
+security has to change it's, you know, this is a moving target. Bernadette
+stated that Cisco is uniquely positioned in the IOE market, and it true
+because they are pioneers in the security industry and a they provide an
+intense solution with all kinds of products. But if we look at how we're gonna secure
+the Internet of everything, we can start with things. We mentionned sensors, we
+mentionned actuators and controllers, you know, reputable manufacturers will have to
+design for assurance which means that they have to account for security
+reliability in their designs.And sure, this is gonna be growing pains as we go
+along,
+and they will use proprietary protocols and security may not be at the
+forefront when they first, you know, coming out with these devices. But it
+will, you know, it
+has to be, because we're evolving. And, Rod mentionned the problem with firmware
+updates, I can understand how sensors would have, you know,/ a problem with
+sensors, but, you know, some devices already have the ability to auto update
+their firmware.
+Like, I have a Western Digital my cloud drive at home and I get emails once in a
+while saying that it updated the firmware automatically and was, you know, it was
+successful. So that those systems are out there and they all just get
+better. Especially, you know, we mentioned proprietary protocols, as it evolves
+standards will be developed and it will make everything work better
+together. Computers we mentioned already there's antivirus, anti-malware and
+the borderless network sure has made this a lot more difficult with smart
+phones,
+tablets and such. But you know Cisco has product like any connect which allows
+you to establish secure connections through/ from pretty much any device now
+laptop, android, iphone and such to a central network and we mentioned a few
+times already in this podcast that, you know, it's not just about securing the
+end devices, but it's really, we need an end to end solution and the
+network is that solution. Service providers, network providers, call providers
+will have to, you know, make sure that they are protecting anything that's
+connecting as it
+comes online. And how do they do that ? Well there's all kinds of hardware and
+software solutions, you know, for example there's identity-based access
+control, Cisco
+has a system called the identity services engine and it enforces that
+identity-based access control to mobile devices, but it also/ can also enforce it to
+the machine to machine network elements like sensors and actuators. You know,
+there is also firewalls that we can use such as the Cisco adaptive security
+appliance,
+that specifically, what a firewall does it protect inside networks from the
+outside network, so, you know, make sure that anything from the inside can go out and come
+back but the outside people can't come in, it's based on sets of rules. And, you
+know, there is
+also systems like intrusion prevention systems, like a Cisco IPS. And it
+basically monitors your network for malicious activity and it could be known
+malicious stuff, but it can also be looking for anomalies, you know, normal traffic
+looks like this ?almost? in different types of traffic is evolving and it can
+raise flags. There's VPN services to protect your data as you're, you know,
+communicating.
+And I envision that even though small sensors down the road will establish
+small VPN connections to their controllers so that if anybody does intercept the
+traffic they wouldn't make sense with what the information are saying. Data
+centers and cloud services are already, you know, been designed with security
+at the forefront. You know, they're using software defined networks which has
+security built in and Cisco solution to that is the Cisco application centric
+infrastructure or ACI which integrates physical and and virtual security
+technologies.
+
+But, you know, we've mentioned, you know, I think everybody's mention this, it
+basically comes down to what the weakest link is. And the weakest link in all
+security is basically people. We have to, like Roderigo said, we have to make
+sure that/ we have to preach to the people that you have to be smart. Be leery
+about sharing your personal information, you know. Remember there's different
+types of data like there's the data that you're volunteering like on Facebook
+you're liking something and in your sharing something, but there's other types
+of information. Your own personal data that you have to be conscious of, like
+infered data
+such as your credit card score, observed data, you know, someone or your phone tracking
+where you 're going with his GPS functionality. So, you know, be cautious about
+what you enable and, you know, things like, you know, sometimes you download an
+app and it's asking you do want use your Facebook account to make this
+easier to login will forget that as soon as you click yes this other company
+will now have access to contacts and perhaps even photos and what have you, so,
+you know,
+be smart about what you're doing. Security is not a solution , it's not gonna be a
+silver bullet that, you know, it's going to protect everything. All of these
+solutions are not fool proof, they can't be, because, you know, we're evolving.
+There's
+always gonna be something new coming on the horizon. It's a bit like we
+mentioned earlier, it's a moving target. And sure they'll be hiccups and bumps
+along the way, but as a system evolves and matures it's only going to get
+better. You
+know, I think of, you know, if you don't want to get a cold, if you want to get
+sick don't leave your home, live in a bubble. But, you know, no one wants to do
+that. And it's
+same thing with the IOE, you are gonna have problems and you are gonna
+encounter, you know,
+hiccups along the way but, you know, I'd rather enjoy the ride and stay at home
+in a bubble.
+
+So I've enjoyed the conversation about security and while security and
+privacy risks are very real apparently in the Internet of everything, it seems
+like it's a matter of posture. it's about remaining cognizant and aware of what
+those risks are as we interact with the Internet of everything moving forward and
+then we can mitigate those risks moving forward. And that, you know, Cisco has a
+lot of technologies in place, they can react to real-time risks inside of the
+network. But also there's a need to responsibility for people for organizations
+to have systems in place, security policies in place that also help protect the
+individuals and the consumers in those organizations accordingly. So, I've
+enjoyed this
+conversation, I wanna thank our listeners, I also want to thank all of our guests
+Bob Roderigo Dan and Bernadette.
+Thanks for listening.
